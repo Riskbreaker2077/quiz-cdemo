@@ -179,6 +179,14 @@
     th { color: #cbd5e1; font-weight: 700; }
     td { color: #e5e7eb; }
     .tiny { color: var(--muted); font-size: .85rem; }
+    .event-section {
+      margin-bottom: 16px;
+    }
+    .event-section h3 {
+      margin: 0 0 10px;
+      font-size: .95rem;
+      color: #cbd5e1;
+    }
     .event-list {
       display: flex;
       flex-direction: column;
@@ -249,7 +257,7 @@
       </div>
       <div class="panel">
         <h2 style="margin-top:0">Próximas clases</h2>
-        <div class="event-list" id="events"></div>
+        <div id="events"></div>
       </div>
     </section>
   </div>
@@ -345,16 +353,37 @@
 
         const upcomingEvents = [...data.events]
           .sort((a, b) => new Date(a.dateTimeStart || `${a.date}T${a.start}:00-05:00`) - new Date(b.dateTimeStart || `${b.date}T${b.start}:00-05:00`))
-          .slice(0, 18);
+          .slice(0, 24);
 
-        document.getElementById('events').innerHTML = upcomingEvents
-          .map(ev => `
-            <div class="event-item">
-              <div class="top">
-                <strong>${ev.group} · ${ev.subject}</strong>
-                <span>${ev.hours} h</span>
+        const firstDate = upcomingEvents[0]?.date || null;
+        const weekGroups = { 'Esta semana': [], 'Próxima semana': [], 'Después': [] };
+
+        const diffDays = (from, to) => Math.floor((new Date(to + 'T00:00:00-05:00') - new Date(from + 'T00:00:00-05:00')) / 86400000);
+
+        upcomingEvents.forEach(ev => {
+          if (!firstDate) return;
+          const d = diffDays(firstDate, ev.date);
+          if (d <= 6) weekGroups['Esta semana'].push(ev);
+          else if (d <= 13) weekGroups['Próxima semana'].push(ev);
+          else weekGroups['Después'].push(ev);
+        });
+
+        document.getElementById('events').innerHTML = Object.entries(weekGroups)
+          .filter(([, items]) => items.length)
+          .map(([label, items]) => `
+            <div class="event-section">
+              <h3>${label}</h3>
+              <div class="event-list">
+                ${items.map(ev => `
+                  <div class="event-item">
+                    <div class="top">
+                      <strong>${ev.group} · ${ev.subject}</strong>
+                      <span>${ev.hours} h</span>
+                    </div>
+                    <div class="bottom">${ev.date} · ${ev.day} · ${ev.start}-${ev.end} · ${ev.summary}</div>
+                  </div>
+                `).join('')}
               </div>
-              <div class="bottom">${ev.date} · ${ev.day} · ${ev.start}-${ev.end} · ${ev.summary}</div>
             </div>
           `).join('');
       })
