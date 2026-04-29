@@ -4,7 +4,7 @@
     "periodStart": "2026-05-04T00:00:00-05:00",
     "periodEnd": "2026-08-14",
     "periodEndDateTime": "2026-08-14T23:59:59-05:00",
-    "generatedAt": "2026-04-29T13:19:27.067788-05:00",
+    "generatedAt": "2026-04-29T13:24:19.829905-05:00",
     "sheetId": "1XU5e-TLbDo1D3x1OmxCEyZ41htQU8WBoxvqxsuLZLx8",
     "sheetUrl": "https://docs.google.com/spreadsheets/d/1XU5e-TLbDo1D3x1OmxCEyZ41htQU8WBoxvqxsuLZLx8/edit",
     "eventsCount": 224,
@@ -121,7 +121,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "bu5g6pquqfpk54caeh5dc20if4"
+      "eventId": "bu5g6pquqfpk54caeh5dc20if4",
+      "dateTimeStart": "2026-05-05T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -133,7 +134,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "mh4uuv74cq0mgj557s5vag8qg8"
+      "eventId": "mh4uuv74cq0mgj557s5vag8qg8",
+      "dateTimeStart": "2026-05-06T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -145,7 +147,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "atrgu3a3ijn043g1jgmb6lge08"
+      "eventId": "atrgu3a3ijn043g1jgmb6lge08",
+      "dateTimeStart": "2026-05-07T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -157,7 +160,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "4ug46ig0ahmdv5u6d3n0cledj4"
+      "eventId": "4ug46ig0ahmdv5u6d3n0cledj4",
+      "dateTimeStart": "2026-05-07T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -169,7 +173,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "soqompmib5csbj6e1n2ti4l1v8"
+      "eventId": "soqompmib5csbj6e1n2ti4l1v8",
+      "dateTimeStart": "2026-05-08T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -181,7 +186,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "7ru8bbr0i1a4mfsi36vsgel75s"
+      "eventId": "7ru8bbr0i1a4mfsi36vsgel75s",
+      "dateTimeStart": "2026-05-08T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -193,7 +199,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "e977pldisidjagq1jma8o4ntnc"
+      "eventId": "e977pldisidjagq1jma8o4ntnc",
+      "dateTimeStart": "2026-05-12T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -205,7 +212,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "nf4v3204gaoqki60d6t0oe3mag"
+      "eventId": "nf4v3204gaoqki60d6t0oe3mag",
+      "dateTimeStart": "2026-05-13T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -217,7 +225,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "bnhf3ifdel7kgbim56qu60mfi4"
+      "eventId": "bnhf3ifdel7kgbim56qu60mfi4",
+      "dateTimeStart": "2026-05-14T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -229,7 +238,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "et9c3tlqdp17kf9tvbmvqs1k1g"
+      "eventId": "et9c3tlqdp17kf9tvbmvqs1k1g",
+      "dateTimeStart": "2026-05-14T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -241,7 +251,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "u05mpgi22cu6u06n67c81b04fg"
+      "eventId": "u05mpgi22cu6u06n67c81b04fg",
+      "dateTimeStart": "2026-05-15T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -253,7 +264,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "2q11oila0ki7sjjotr00igtiac"
+      "eventId": "2q11oila0ki7sjjotr00igtiac",
+      "dateTimeStart": "2026-05-15T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -265,7 +277,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "tl6ivu7f69q2aq3chel8q7tjq0"
+      "eventId": "tl6ivu7f69q2aq3chel8q7tjq0",
+      "dateTimeStart": "2026-05-20T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -277,7 +290,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "vmvdpm0mt940jdv254rlnek19c"
+      "eventId": "vmvdpm0mt940jdv254rlnek19c",
+      "dateTimeStart": "2026-05-21T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -289,7 +303,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "9ini3eb8pq3dohs806el2hgr6k"
+      "eventId": "9ini3eb8pq3dohs806el2hgr6k",
+      "dateTimeStart": "2026-05-21T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -301,7 +316,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "dnb4oqhna0fk95hfkmcmgkosa4"
+      "eventId": "dnb4oqhna0fk95hfkmcmgkosa4",
+      "dateTimeStart": "2026-05-22T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -313,7 +329,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "0067ml42405qj6ai1793i9kc80"
+      "eventId": "0067ml42405qj6ai1793i9kc80",
+      "dateTimeStart": "2026-05-22T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -325,7 +342,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "60hmsf0vq2ml4hdq2dug3dv4ps"
+      "eventId": "60hmsf0vq2ml4hdq2dug3dv4ps",
+      "dateTimeStart": "2026-05-26T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -337,7 +355,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "edsrtk3fnt3v31bigaeqiqs7lo"
+      "eventId": "edsrtk3fnt3v31bigaeqiqs7lo",
+      "dateTimeStart": "2026-05-27T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -349,7 +368,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "vif7oauc4ghc1re9s5acliuchk"
+      "eventId": "vif7oauc4ghc1re9s5acliuchk",
+      "dateTimeStart": "2026-05-28T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -361,7 +381,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "8vg7noukbf8mq5lgcum3nqbnq8"
+      "eventId": "8vg7noukbf8mq5lgcum3nqbnq8",
+      "dateTimeStart": "2026-05-28T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -373,7 +394,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "rgj4rem014fi3tmq98egj49e0g"
+      "eventId": "rgj4rem014fi3tmq98egj49e0g",
+      "dateTimeStart": "2026-05-29T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -385,7 +407,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "314000l8jjr9j75i80orlhmjbs"
+      "eventId": "314000l8jjr9j75i80orlhmjbs",
+      "dateTimeStart": "2026-05-29T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -397,7 +420,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "2ta78gqs1j6an5rcu0sh4f7o7g"
+      "eventId": "2ta78gqs1j6an5rcu0sh4f7o7g",
+      "dateTimeStart": "2026-06-02T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -409,7 +433,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "8ol2kqra4etucmkk4uqh05ei4s"
+      "eventId": "8ol2kqra4etucmkk4uqh05ei4s",
+      "dateTimeStart": "2026-06-03T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -421,7 +446,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "940m70kfh28gb9nbn8j1sj75mo"
+      "eventId": "940m70kfh28gb9nbn8j1sj75mo",
+      "dateTimeStart": "2026-06-04T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -433,7 +459,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "ogfiohh0e01jsvavmfe1jal7bo"
+      "eventId": "ogfiohh0e01jsvavmfe1jal7bo",
+      "dateTimeStart": "2026-06-04T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -445,7 +472,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "3ib0pr8k5irnqs3ois1ogaf084"
+      "eventId": "3ib0pr8k5irnqs3ois1ogaf084",
+      "dateTimeStart": "2026-06-05T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -457,7 +485,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "v53rm8ijbhopo6d6gei67um5o4"
+      "eventId": "v53rm8ijbhopo6d6gei67um5o4",
+      "dateTimeStart": "2026-06-05T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -469,7 +498,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "nbba743sus5218t9b5sk9mv3nc"
+      "eventId": "nbba743sus5218t9b5sk9mv3nc",
+      "dateTimeStart": "2026-06-11T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -481,7 +511,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "fpjo21qt669tcttp65sss7eje4"
+      "eventId": "fpjo21qt669tcttp65sss7eje4",
+      "dateTimeStart": "2026-06-11T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -493,7 +524,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "bng49dhqlrsuam1qv3upv1iiis"
+      "eventId": "bng49dhqlrsuam1qv3upv1iiis",
+      "dateTimeStart": "2026-06-12T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -505,7 +537,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "f9r5atal6cf17q7nan92e24k6s"
+      "eventId": "f9r5atal6cf17q7nan92e24k6s",
+      "dateTimeStart": "2026-06-12T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -517,7 +550,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "al6f6kpt43qfg1bvmrv4pg3pic"
+      "eventId": "al6f6kpt43qfg1bvmrv4pg3pic",
+      "dateTimeStart": "2026-06-17T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -529,7 +563,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "45d4jggcdupnaes5nltk4g202o"
+      "eventId": "45d4jggcdupnaes5nltk4g202o",
+      "dateTimeStart": "2026-06-18T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -541,7 +576,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "77a975q82srbcgooin59mbvm1s"
+      "eventId": "77a975q82srbcgooin59mbvm1s",
+      "dateTimeStart": "2026-06-18T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -553,7 +589,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "c7sta7seo6h66vvgvb60lbin80"
+      "eventId": "c7sta7seo6h66vvgvb60lbin80",
+      "dateTimeStart": "2026-06-19T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -565,7 +602,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "s61sd3059bt50m77frma6va1ok"
+      "eventId": "s61sd3059bt50m77frma6va1ok",
+      "dateTimeStart": "2026-06-19T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -577,7 +615,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "e6g5ep65u1ih5rnrut7b3ami5s"
+      "eventId": "e6g5ep65u1ih5rnrut7b3ami5s",
+      "dateTimeStart": "2026-07-07T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -589,7 +628,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "prjo2jg5q9emp2vcr6tlakg9go"
+      "eventId": "prjo2jg5q9emp2vcr6tlakg9go",
+      "dateTimeStart": "2026-07-08T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -601,7 +641,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "k7l3kc5lpjl6jjr3mpf9dukth8"
+      "eventId": "k7l3kc5lpjl6jjr3mpf9dukth8",
+      "dateTimeStart": "2026-07-09T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -613,7 +654,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "bphjnihs5595al9ljlflci1sdg"
+      "eventId": "bphjnihs5595al9ljlflci1sdg",
+      "dateTimeStart": "2026-07-09T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -625,7 +667,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "if9agbf6b3vf6r9qsmhfub9ec4"
+      "eventId": "if9agbf6b3vf6r9qsmhfub9ec4",
+      "dateTimeStart": "2026-07-10T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -637,7 +680,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "jnn9c8uur69r5ggghj3g0s88rc"
+      "eventId": "jnn9c8uur69r5ggghj3g0s88rc",
+      "dateTimeStart": "2026-07-10T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -649,7 +693,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "aplfv1e9s90jttfqki8b4ivagc"
+      "eventId": "aplfv1e9s90jttfqki8b4ivagc",
+      "dateTimeStart": "2026-07-16T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -661,7 +706,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "9k2naqg0ul1avpo48m6uanjvf0"
+      "eventId": "9k2naqg0ul1avpo48m6uanjvf0",
+      "dateTimeStart": "2026-07-16T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -673,7 +719,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "2d6mqc0eq8gnqti9ajqg9p84jc"
+      "eventId": "2d6mqc0eq8gnqti9ajqg9p84jc",
+      "dateTimeStart": "2026-07-17T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -685,7 +732,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "l04i08jl4ltncr2t0ad4bpiics"
+      "eventId": "l04i08jl4ltncr2t0ad4bpiics",
+      "dateTimeStart": "2026-07-17T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -697,7 +745,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "obd1854ij2l6je3o4h75cbuvdo"
+      "eventId": "obd1854ij2l6je3o4h75cbuvdo",
+      "dateTimeStart": "2026-07-22T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -709,7 +758,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "q1joisju64ra5m0i4kq4hrp79c"
+      "eventId": "q1joisju64ra5m0i4kq4hrp79c",
+      "dateTimeStart": "2026-07-23T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -721,7 +771,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "hi1b3p9cplu529kikuf8mt50o8"
+      "eventId": "hi1b3p9cplu529kikuf8mt50o8",
+      "dateTimeStart": "2026-07-23T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -733,7 +784,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "hhkdtc6cgevaeqdi9vb3e66tjo"
+      "eventId": "hhkdtc6cgevaeqdi9vb3e66tjo",
+      "dateTimeStart": "2026-07-24T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -745,7 +797,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "4l5m09epnrdckappasd219b7k8"
+      "eventId": "4l5m09epnrdckappasd219b7k8",
+      "dateTimeStart": "2026-07-24T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -757,7 +810,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "c1a3tlaj6l7fk67rie4k946shg"
+      "eventId": "c1a3tlaj6l7fk67rie4k946shg",
+      "dateTimeStart": "2026-07-28T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -769,7 +823,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "9mdtvf4l1av42jocivr4ref6as"
+      "eventId": "9mdtvf4l1av42jocivr4ref6as",
+      "dateTimeStart": "2026-07-29T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -781,7 +836,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "2ghsupivdppbl0k7rfk6t2e1m4"
+      "eventId": "2ghsupivdppbl0k7rfk6t2e1m4",
+      "dateTimeStart": "2026-07-30T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -793,7 +849,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "4p0c6d1c6elnrghsoaq3n5evsk"
+      "eventId": "4p0c6d1c6elnrghsoaq3n5evsk",
+      "dateTimeStart": "2026-07-30T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -805,7 +862,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "rq8rh1m6ecl8nffbbj52hrqksc"
+      "eventId": "rq8rh1m6ecl8nffbbj52hrqksc",
+      "dateTimeStart": "2026-07-31T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -817,7 +875,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "hjpri2ccbbp82lipgqkipq31ak"
+      "eventId": "hjpri2ccbbp82lipgqkipq31ak",
+      "dateTimeStart": "2026-07-31T08:35:00-05:00"
     },
     {
       "group": "10A",
@@ -829,7 +888,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "0d3rl73nojpif5mb8hd3mkgr0c"
+      "eventId": "0d3rl73nojpif5mb8hd3mkgr0c",
+      "dateTimeStart": "2026-08-04T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -841,7 +901,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "9gvo7iff6cf951a25lgf3n2b70"
+      "eventId": "9gvo7iff6cf951a25lgf3n2b70",
+      "dateTimeStart": "2026-08-05T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -853,7 +914,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "k0oe5im4o94j9u17gfiqe1qj70"
+      "eventId": "k0oe5im4o94j9u17gfiqe1qj70",
+      "dateTimeStart": "2026-08-06T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -865,7 +927,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "ba0biskr2mqtno7fgro14hkh88"
+      "eventId": "ba0biskr2mqtno7fgro14hkh88",
+      "dateTimeStart": "2026-08-06T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -877,7 +940,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "cdo31nrv3kvvv0ink6upgvqecs"
+      "eventId": "cdo31nrv3kvvv0ink6upgvqecs",
+      "dateTimeStart": "2026-08-11T11:35:00-05:00"
     },
     {
       "group": "10A",
@@ -889,7 +953,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "t309gvbq8hpnfe1kvm83r39cbc"
+      "eventId": "t309gvbq8hpnfe1kvm83r39cbc",
+      "dateTimeStart": "2026-08-12T12:45:00-05:00"
     },
     {
       "group": "10A",
@@ -901,7 +966,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "1lmmnrdg3a2spilu8d499ilr9c"
+      "eventId": "1lmmnrdg3a2spilu8d499ilr9c",
+      "dateTimeStart": "2026-08-13T06:45:00-05:00"
     },
     {
       "group": "10A",
@@ -913,7 +979,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "hrcheeqrtj0e92j5ehfod44bbg"
+      "eventId": "hrcheeqrtj0e92j5ehfod44bbg",
+      "dateTimeStart": "2026-08-13T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -925,7 +992,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "ha169f69jn0b4jquvuqoqqd0r0"
+      "eventId": "ha169f69jn0b4jquvuqoqqd0r0",
+      "dateTimeStart": "2026-08-14T07:40:00-05:00"
     },
     {
       "group": "10A",
@@ -937,7 +1005,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "9c83a5ea427a75d2fe161f61ca43f22801c568b9b6d0c0a89e6d52f55df2a723@group.calendar.google.com",
-      "eventId": "cs7f9ov918rpu5lu26makj0cf8"
+      "eventId": "cs7f9ov918rpu5lu26makj0cf8",
+      "dateTimeStart": "2026-08-14T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -949,7 +1018,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "t7hr8sf4n768fhdok5n1jh8f3o"
+      "eventId": "t7hr8sf4n768fhdok5n1jh8f3o",
+      "dateTimeStart": "2026-05-04T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -961,7 +1031,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "1ip19nccdgb0t2rcps8u4meiak"
+      "eventId": "1ip19nccdgb0t2rcps8u4meiak",
+      "dateTimeStart": "2026-05-04T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -973,7 +1044,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "bhdkr97v67pdqnkecpo6lrs1ds"
+      "eventId": "bhdkr97v67pdqnkecpo6lrs1ds",
+      "dateTimeStart": "2026-05-05T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -985,7 +1057,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "d5h7hce11hsp4i3ejr9v7u0o58"
+      "eventId": "d5h7hce11hsp4i3ejr9v7u0o58",
+      "dateTimeStart": "2026-05-07T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -997,7 +1070,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "lakkbpftjtbcvai8cp772j53u4"
+      "eventId": "lakkbpftjtbcvai8cp772j53u4",
+      "dateTimeStart": "2026-05-08T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1009,7 +1083,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "2rbc0hr7m2jnpa0b3ubsc0r3f4"
+      "eventId": "2rbc0hr7m2jnpa0b3ubsc0r3f4",
+      "dateTimeStart": "2026-05-11T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1021,7 +1096,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "iu6elcdri0jgp3ibbaqmv478s8"
+      "eventId": "iu6elcdri0jgp3ibbaqmv478s8",
+      "dateTimeStart": "2026-05-11T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1033,7 +1109,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "kak513asdrq8t5fmfja1ahv9mc"
+      "eventId": "kak513asdrq8t5fmfja1ahv9mc",
+      "dateTimeStart": "2026-05-12T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1045,7 +1122,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "chnq7rkt3218gql2gp5boqkudo"
+      "eventId": "chnq7rkt3218gql2gp5boqkudo",
+      "dateTimeStart": "2026-05-14T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1057,7 +1135,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "kt63hs212ht0gorp14thotjd70"
+      "eventId": "kt63hs212ht0gorp14thotjd70",
+      "dateTimeStart": "2026-05-15T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1069,7 +1148,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "5gid2j8i4fij7dc3ehc30dg6r4"
+      "eventId": "5gid2j8i4fij7dc3ehc30dg6r4",
+      "dateTimeStart": "2026-05-21T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1081,7 +1161,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "3erbhg19apl49ghd0c7m3qiqs0"
+      "eventId": "3erbhg19apl49ghd0c7m3qiqs0",
+      "dateTimeStart": "2026-05-22T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1093,7 +1174,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "vd5gi1vuv6676lailmtt7ao8ck"
+      "eventId": "vd5gi1vuv6676lailmtt7ao8ck",
+      "dateTimeStart": "2026-05-25T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1105,7 +1187,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "fl4rvi7ulhir5tlb7mvn6reujk"
+      "eventId": "fl4rvi7ulhir5tlb7mvn6reujk",
+      "dateTimeStart": "2026-05-25T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1117,7 +1200,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "8elt04bp7vqhhhervsjlsmdc3o"
+      "eventId": "8elt04bp7vqhhhervsjlsmdc3o",
+      "dateTimeStart": "2026-05-26T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1129,7 +1213,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "ffnmmh1tnt00ge6mkt07kqcmp4"
+      "eventId": "ffnmmh1tnt00ge6mkt07kqcmp4",
+      "dateTimeStart": "2026-05-28T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1141,7 +1226,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "53d9oqok13fhus6dta9r3132u4"
+      "eventId": "53d9oqok13fhus6dta9r3132u4",
+      "dateTimeStart": "2026-05-29T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1153,7 +1239,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "fqrrfhkr68j0qi5jogakd5od54"
+      "eventId": "fqrrfhkr68j0qi5jogakd5od54",
+      "dateTimeStart": "2026-06-01T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1165,7 +1252,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "ddlo36bd4daeekttmuv9d0blp8"
+      "eventId": "ddlo36bd4daeekttmuv9d0blp8",
+      "dateTimeStart": "2026-06-01T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1177,7 +1265,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "30t4qje8pcbq1csl1hkacqrups"
+      "eventId": "30t4qje8pcbq1csl1hkacqrups",
+      "dateTimeStart": "2026-06-02T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1189,7 +1278,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "4om3nh85r77jpkdd3r07jumd1s"
+      "eventId": "4om3nh85r77jpkdd3r07jumd1s",
+      "dateTimeStart": "2026-06-04T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1201,7 +1291,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "sr4uo6rjtfegj2t184ole1vrmc"
+      "eventId": "sr4uo6rjtfegj2t184ole1vrmc",
+      "dateTimeStart": "2026-06-05T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1213,7 +1304,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "r1krmn5eoukn6lpcc97stsvjac"
+      "eventId": "r1krmn5eoukn6lpcc97stsvjac",
+      "dateTimeStart": "2026-06-11T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1225,7 +1317,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "r0q7lklun3ofpa0qpr08ltisf8"
+      "eventId": "r0q7lklun3ofpa0qpr08ltisf8",
+      "dateTimeStart": "2026-06-12T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1237,7 +1330,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "aobc899gq0dog5s4j6jeqolopc"
+      "eventId": "aobc899gq0dog5s4j6jeqolopc",
+      "dateTimeStart": "2026-06-18T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1249,7 +1343,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "hjb78klrj5eujc55gs67j505fo"
+      "eventId": "hjb78klrj5eujc55gs67j505fo",
+      "dateTimeStart": "2026-06-19T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1261,7 +1356,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "fnb6ia12teashve2u1b10d7c28"
+      "eventId": "fnb6ia12teashve2u1b10d7c28",
+      "dateTimeStart": "2026-07-07T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1273,7 +1369,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "7i2lch59n711d2dgn1bf908qgg"
+      "eventId": "7i2lch59n711d2dgn1bf908qgg",
+      "dateTimeStart": "2026-07-09T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1285,7 +1382,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "leam86uc90nekadscem82mchso"
+      "eventId": "leam86uc90nekadscem82mchso",
+      "dateTimeStart": "2026-07-10T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1297,7 +1395,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "ib3bof3kk3ki1kjsn70961d0as"
+      "eventId": "ib3bof3kk3ki1kjsn70961d0as",
+      "dateTimeStart": "2026-07-13T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1309,7 +1408,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "csqoct07cvcd1jetgo31ol01es"
+      "eventId": "csqoct07cvcd1jetgo31ol01es",
+      "dateTimeStart": "2026-07-13T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1321,7 +1421,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "drfde5g3g2bdd1o27ffa71j9dc"
+      "eventId": "drfde5g3g2bdd1o27ffa71j9dc",
+      "dateTimeStart": "2026-07-16T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1333,7 +1434,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "eudcj0bg22j5rsu2dlvvouf69s"
+      "eventId": "eudcj0bg22j5rsu2dlvvouf69s",
+      "dateTimeStart": "2026-07-17T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1345,7 +1447,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "j5mseljebfiilf2thvkdu7v84o"
+      "eventId": "j5mseljebfiilf2thvkdu7v84o",
+      "dateTimeStart": "2026-07-23T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1357,7 +1460,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "ba202k027b966ngl4pljbuda5c"
+      "eventId": "ba202k027b966ngl4pljbuda5c",
+      "dateTimeStart": "2026-07-24T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1369,7 +1473,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "o2p59s16uuqj3c7q25ab87js8g"
+      "eventId": "o2p59s16uuqj3c7q25ab87js8g",
+      "dateTimeStart": "2026-07-27T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1381,7 +1486,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "h07av0rocoqk92qnkc77bd1cfc"
+      "eventId": "h07av0rocoqk92qnkc77bd1cfc",
+      "dateTimeStart": "2026-07-27T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1393,7 +1499,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "rq71g6omap3o2gj3h9nl1r8fh0"
+      "eventId": "rq71g6omap3o2gj3h9nl1r8fh0",
+      "dateTimeStart": "2026-07-28T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1405,7 +1512,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "7u7im8bdu1hbvk1k7f0a1mishs"
+      "eventId": "7u7im8bdu1hbvk1k7f0a1mishs",
+      "dateTimeStart": "2026-07-30T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1417,7 +1525,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "fir6j0i6ll9m3r96cde5ear2f4"
+      "eventId": "fir6j0i6ll9m3r96cde5ear2f4",
+      "dateTimeStart": "2026-07-31T11:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1429,7 +1538,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "abm6aamj2i0i7froh6djpu9e3k"
+      "eventId": "abm6aamj2i0i7froh6djpu9e3k",
+      "dateTimeStart": "2026-08-03T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1441,7 +1551,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "8m6mpdabi7ril5sla0n1fnk9ko"
+      "eventId": "8m6mpdabi7ril5sla0n1fnk9ko",
+      "dateTimeStart": "2026-08-03T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1453,7 +1564,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "0titehrmp93ftqhrc0u8odk9sc"
+      "eventId": "0titehrmp93ftqhrc0u8odk9sc",
+      "dateTimeStart": "2026-08-04T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1465,7 +1577,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "epo9cj1jlv2okuct909idlkgmk"
+      "eventId": "epo9cj1jlv2okuct909idlkgmk",
+      "dateTimeStart": "2026-08-06T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1477,7 +1590,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "0c2lj38rc5m91893nrqc18d8o8"
+      "eventId": "0c2lj38rc5m91893nrqc18d8o8",
+      "dateTimeStart": "2026-08-10T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1489,7 +1603,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "odj7p7bjj4etj5depl7h2lgtv8"
+      "eventId": "odj7p7bjj4etj5depl7h2lgtv8",
+      "dateTimeStart": "2026-08-10T13:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1501,7 +1616,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "cu2vluvifsu48devsfqd02dk40"
+      "eventId": "cu2vluvifsu48devsfqd02dk40",
+      "dateTimeStart": "2026-08-11T12:45:00-05:00"
     },
     {
       "group": "10B",
@@ -1513,7 +1629,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "9rvs7kqm2j8flo3d9gp1ns6dis"
+      "eventId": "9rvs7kqm2j8flo3d9gp1ns6dis",
+      "dateTimeStart": "2026-08-13T08:35:00-05:00"
     },
     {
       "group": "10B",
@@ -1525,7 +1642,8 @@
       "hours": 0.83,
       "summary": "Filosofía",
       "calendarId": "8ca702b7ea37da5aa73b1e067e12cfa579be6b0321ab2c5d240c048286b4d869@group.calendar.google.com",
-      "eventId": "skfmn5j0lqtr5mjmgpp5gulfqo"
+      "eventId": "skfmn5j0lqtr5mjmgpp5gulfqo",
+      "dateTimeStart": "2026-08-14T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1537,7 +1655,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "1ncneen7bu2gj2ka32u6a5kvog"
+      "eventId": "1ncneen7bu2gj2ka32u6a5kvog",
+      "dateTimeStart": "2026-05-04T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1549,7 +1668,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "mm6cl724k3vli3lgc63k8g0e80"
+      "eventId": "mm6cl724k3vli3lgc63k8g0e80",
+      "dateTimeStart": "2026-05-04T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1561,7 +1681,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "0l89ho011pkp3bo54jos2j9fjc"
+      "eventId": "0l89ho011pkp3bo54jos2j9fjc",
+      "dateTimeStart": "2026-05-05T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1573,7 +1694,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "bkgsbssqtka0ppgveghbqtnk14"
+      "eventId": "bkgsbssqtka0ppgveghbqtnk14",
+      "dateTimeStart": "2026-05-05T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1585,7 +1707,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "2bf1jp4gamn2r2sbqp07ii6030"
+      "eventId": "2bf1jp4gamn2r2sbqp07ii6030",
+      "dateTimeStart": "2026-05-05T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1597,7 +1720,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "958j7bvthbjg7jks4taa053so0"
+      "eventId": "958j7bvthbjg7jks4taa053so0",
+      "dateTimeStart": "2026-05-08T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1609,7 +1733,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "1tduj19vemehs5rf6uqcspfjs0"
+      "eventId": "1tduj19vemehs5rf6uqcspfjs0",
+      "dateTimeStart": "2026-05-11T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1621,7 +1746,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "902fram1qkei24dksafue8qlr4"
+      "eventId": "902fram1qkei24dksafue8qlr4",
+      "dateTimeStart": "2026-05-11T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1633,7 +1759,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "4jqimomu9qqe8uvu0nr2l1d8tk"
+      "eventId": "4jqimomu9qqe8uvu0nr2l1d8tk",
+      "dateTimeStart": "2026-05-12T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1645,7 +1772,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "tfdajbjo5n6d7vlepln8s70enc"
+      "eventId": "tfdajbjo5n6d7vlepln8s70enc",
+      "dateTimeStart": "2026-05-12T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1657,7 +1785,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "mlbbjabrs8e7ediutls63us3t4"
+      "eventId": "mlbbjabrs8e7ediutls63us3t4",
+      "dateTimeStart": "2026-05-12T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1669,7 +1798,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "ffhr6h3h1bfm3fg8m1ldi88h9c"
+      "eventId": "ffhr6h3h1bfm3fg8m1ldi88h9c",
+      "dateTimeStart": "2026-05-15T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1681,7 +1811,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "7p0lrpoismaek2vocpr7brufl0"
+      "eventId": "7p0lrpoismaek2vocpr7brufl0",
+      "dateTimeStart": "2026-05-22T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1693,7 +1824,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "41e2igsvc9460g0e0rap5q2itk"
+      "eventId": "41e2igsvc9460g0e0rap5q2itk",
+      "dateTimeStart": "2026-05-25T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1705,7 +1837,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "uvftlna8lk88ekca9sprq1otgo"
+      "eventId": "uvftlna8lk88ekca9sprq1otgo",
+      "dateTimeStart": "2026-05-25T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1717,7 +1850,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "2uh8g0h1fj1isb4cl7f57eilqo"
+      "eventId": "2uh8g0h1fj1isb4cl7f57eilqo",
+      "dateTimeStart": "2026-05-26T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1729,7 +1863,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "a3esoutrfbn2uli9afkcr60ptg"
+      "eventId": "a3esoutrfbn2uli9afkcr60ptg",
+      "dateTimeStart": "2026-05-26T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1741,7 +1876,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "6u4chnd0cen0bmm1nkvoiq4bdc"
+      "eventId": "6u4chnd0cen0bmm1nkvoiq4bdc",
+      "dateTimeStart": "2026-05-26T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1753,7 +1889,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "j5t2qrl5r01hb69fg290an7ft8"
+      "eventId": "j5t2qrl5r01hb69fg290an7ft8",
+      "dateTimeStart": "2026-05-29T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1765,7 +1902,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "8fij90npoem5a9rjv7up0p20lk"
+      "eventId": "8fij90npoem5a9rjv7up0p20lk",
+      "dateTimeStart": "2026-06-01T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1777,7 +1915,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "1r3sv894dsjj5inco857u2co2o"
+      "eventId": "1r3sv894dsjj5inco857u2co2o",
+      "dateTimeStart": "2026-06-01T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1789,7 +1928,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "k90tmdd1anuooj7t9semdo745c"
+      "eventId": "k90tmdd1anuooj7t9semdo745c",
+      "dateTimeStart": "2026-06-02T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1801,7 +1941,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "o2i4po6bgo6a6ofv8n2rr0msa0"
+      "eventId": "o2i4po6bgo6a6ofv8n2rr0msa0",
+      "dateTimeStart": "2026-06-02T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1813,7 +1954,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "drkdhd0218n617b29h93g0sll0"
+      "eventId": "drkdhd0218n617b29h93g0sll0",
+      "dateTimeStart": "2026-06-02T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1825,7 +1967,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "7f4poe3i0pm2sc9h1tvch81pjc"
+      "eventId": "7f4poe3i0pm2sc9h1tvch81pjc",
+      "dateTimeStart": "2026-06-05T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1837,7 +1980,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "g5tcnecjfn5q3ljkre8ihe783k"
+      "eventId": "g5tcnecjfn5q3ljkre8ihe783k",
+      "dateTimeStart": "2026-06-12T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1849,7 +1993,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "2i7dd29j3lnmq9oi87hljdj98s"
+      "eventId": "2i7dd29j3lnmq9oi87hljdj98s",
+      "dateTimeStart": "2026-06-19T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1861,7 +2006,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "q8uuq1kkc7u9vcdcgmu6d7notc"
+      "eventId": "q8uuq1kkc7u9vcdcgmu6d7notc",
+      "dateTimeStart": "2026-07-07T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1873,7 +2019,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "21gtp15f1acrbjacjo3iin68ts"
+      "eventId": "21gtp15f1acrbjacjo3iin68ts",
+      "dateTimeStart": "2026-07-07T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1885,7 +2032,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "knp11uid9q3av31hsrmg5b7gck"
+      "eventId": "knp11uid9q3av31hsrmg5b7gck",
+      "dateTimeStart": "2026-07-07T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1897,7 +2045,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "chulqonu4a4uc6n1l13gfe6s8o"
+      "eventId": "chulqonu4a4uc6n1l13gfe6s8o",
+      "dateTimeStart": "2026-07-10T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1909,7 +2058,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "86nkhl3qehc5t2iojmk7fk8288"
+      "eventId": "86nkhl3qehc5t2iojmk7fk8288",
+      "dateTimeStart": "2026-07-13T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1921,7 +2071,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "78so5kdn5fo043r1o41ub3qvvg"
+      "eventId": "78so5kdn5fo043r1o41ub3qvvg",
+      "dateTimeStart": "2026-07-13T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1933,7 +2084,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "lbobro54s17jg15d52k8di8628"
+      "eventId": "lbobro54s17jg15d52k8di8628",
+      "dateTimeStart": "2026-07-17T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1945,7 +2097,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "mctetuhp9h944pkcetmm70rl1o"
+      "eventId": "mctetuhp9h944pkcetmm70rl1o",
+      "dateTimeStart": "2026-07-24T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1957,7 +2110,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "qvau7li1sa0vchtgoqsjc4n120"
+      "eventId": "qvau7li1sa0vchtgoqsjc4n120",
+      "dateTimeStart": "2026-07-27T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -1969,7 +2123,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "9irserftt1qtnanm8vo61pc1mo"
+      "eventId": "9irserftt1qtnanm8vo61pc1mo",
+      "dateTimeStart": "2026-07-27T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -1981,7 +2136,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "0htgbfa0flrvvsfl0o9i06e06o"
+      "eventId": "0htgbfa0flrvvsfl0o9i06e06o",
+      "dateTimeStart": "2026-07-28T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -1993,7 +2149,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "4ejevnjf0djf5n2unhou58a0s8"
+      "eventId": "4ejevnjf0djf5n2unhou58a0s8",
+      "dateTimeStart": "2026-07-28T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -2005,7 +2162,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "aem5a757k59h27mlqtvgbtfbik"
+      "eventId": "aem5a757k59h27mlqtvgbtfbik",
+      "dateTimeStart": "2026-07-28T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -2017,7 +2175,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "6d14p4v5odc716jmuns6qec2io"
+      "eventId": "6d14p4v5odc716jmuns6qec2io",
+      "dateTimeStart": "2026-07-31T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -2029,7 +2188,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "bta97mhl81kee45gj68vpe0ang"
+      "eventId": "bta97mhl81kee45gj68vpe0ang",
+      "dateTimeStart": "2026-08-03T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -2041,7 +2201,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "edshe99hjsim58giu8onkn0ts8"
+      "eventId": "edshe99hjsim58giu8onkn0ts8",
+      "dateTimeStart": "2026-08-03T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -2053,7 +2214,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "tfq1sfpfic1qpc2jbfoprjc1fc"
+      "eventId": "tfq1sfpfic1qpc2jbfoprjc1fc",
+      "dateTimeStart": "2026-08-04T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -2065,7 +2227,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "soaqcd65va7iikoueaahr9vqhc"
+      "eventId": "soaqcd65va7iikoueaahr9vqhc",
+      "dateTimeStart": "2026-08-04T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -2077,7 +2240,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "kua23fab9l17h522aikh6go1og"
+      "eventId": "kua23fab9l17h522aikh6go1og",
+      "dateTimeStart": "2026-08-04T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -2089,7 +2253,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "9mi7cm6eoo9ld1gpap9v42a2mg"
+      "eventId": "9mi7cm6eoo9ld1gpap9v42a2mg",
+      "dateTimeStart": "2026-08-10T10:40:00-05:00"
     },
     {
       "group": "11A",
@@ -2101,7 +2266,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "24176uoghgamg1jkl7vktpg23s"
+      "eventId": "24176uoghgamg1jkl7vktpg23s",
+      "dateTimeStart": "2026-08-10T11:35:00-05:00"
     },
     {
       "group": "11A",
@@ -2113,7 +2279,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "neegft5sefauktmabgsmjm599k"
+      "eventId": "neegft5sefauktmabgsmjm599k",
+      "dateTimeStart": "2026-08-11T06:45:00-05:00"
     },
     {
       "group": "11A",
@@ -2125,7 +2292,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "2netff7m7eulhnod24tofh8ggs"
+      "eventId": "2netff7m7eulhnod24tofh8ggs",
+      "dateTimeStart": "2026-08-11T07:40:00-05:00"
     },
     {
       "group": "11A",
@@ -2137,7 +2305,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "m579v96oavmsk7j02k3ue104h8"
+      "eventId": "m579v96oavmsk7j02k3ue104h8",
+      "dateTimeStart": "2026-08-11T08:35:00-05:00"
     },
     {
       "group": "11A",
@@ -2149,7 +2318,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "a10ca9eec24bec30c1db0f3cd5f5cedf0085d7e28030fe85414fa6773a03552e@group.calendar.google.com",
-      "eventId": "eeopr6flqpb93ocq250m9u8ias"
+      "eventId": "eeopr6flqpb93ocq250m9u8ias",
+      "dateTimeStart": "2026-08-14T06:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2161,7 +2331,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "ec9shcovrlfefe9k6k14v2elkg"
+      "eventId": "ec9shcovrlfefe9k6k14v2elkg",
+      "dateTimeStart": "2026-05-04T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2173,7 +2344,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "ql1ef1l4k30h31r5eshuufpk28"
+      "eventId": "ql1ef1l4k30h31r5eshuufpk28",
+      "dateTimeStart": "2026-05-06T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2185,7 +2357,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "8htoks8uclrp04u5kjlqq5fpig"
+      "eventId": "8htoks8uclrp04u5kjlqq5fpig",
+      "dateTimeStart": "2026-05-06T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2197,7 +2370,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "vajq9ouuee5jj9v35msv4fteuo"
+      "eventId": "vajq9ouuee5jj9v35msv4fteuo",
+      "dateTimeStart": "2026-05-08T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2209,7 +2383,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "ivrpohm8b1ii8lcru6qkdjud80"
+      "eventId": "ivrpohm8b1ii8lcru6qkdjud80",
+      "dateTimeStart": "2026-05-08T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2221,7 +2396,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "jtrhehpu2lfspud7gi5ritc9ck"
+      "eventId": "jtrhehpu2lfspud7gi5ritc9ck",
+      "dateTimeStart": "2026-05-11T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2233,7 +2409,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "lvg6feq184snv1sl7j6598mofo"
+      "eventId": "lvg6feq184snv1sl7j6598mofo",
+      "dateTimeStart": "2026-05-13T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2245,7 +2422,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "urjbjuohpliid1m108v7r44le0"
+      "eventId": "urjbjuohpliid1m108v7r44le0",
+      "dateTimeStart": "2026-05-13T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2257,7 +2435,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "pl3ghb3qbck8tm8j5bopos43h8"
+      "eventId": "pl3ghb3qbck8tm8j5bopos43h8",
+      "dateTimeStart": "2026-05-15T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2269,7 +2448,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "bi10sqjfqq63q6hl8ltud67dp8"
+      "eventId": "bi10sqjfqq63q6hl8ltud67dp8",
+      "dateTimeStart": "2026-05-15T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2281,7 +2461,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "uhh7itu22l9ubmboovd80jtqs8"
+      "eventId": "uhh7itu22l9ubmboovd80jtqs8",
+      "dateTimeStart": "2026-05-20T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2293,7 +2474,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "qbnok0r5krcildq2kkgcpafau4"
+      "eventId": "qbnok0r5krcildq2kkgcpafau4",
+      "dateTimeStart": "2026-05-20T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2305,7 +2487,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "31e6s8u8rm5noe95eqsn60m25g"
+      "eventId": "31e6s8u8rm5noe95eqsn60m25g",
+      "dateTimeStart": "2026-05-22T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2317,7 +2500,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "urs2oar5j5ptibroebtv7672dg"
+      "eventId": "urs2oar5j5ptibroebtv7672dg",
+      "dateTimeStart": "2026-05-22T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2329,7 +2513,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "5amgu7s0g603sm4v6ia1fn8cbc"
+      "eventId": "5amgu7s0g603sm4v6ia1fn8cbc",
+      "dateTimeStart": "2026-05-25T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2341,7 +2526,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "uon0vkh95lc66tgad13pd2nvp4"
+      "eventId": "uon0vkh95lc66tgad13pd2nvp4",
+      "dateTimeStart": "2026-05-27T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2353,7 +2539,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "df2h3sah1sfseqagphloudum1s"
+      "eventId": "df2h3sah1sfseqagphloudum1s",
+      "dateTimeStart": "2026-05-27T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2365,7 +2552,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "r3ka12tq29dd7ll1jpt31cmrgs"
+      "eventId": "r3ka12tq29dd7ll1jpt31cmrgs",
+      "dateTimeStart": "2026-05-29T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2377,7 +2565,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "8pvvc8a204gtskq38b9pg7nnas"
+      "eventId": "8pvvc8a204gtskq38b9pg7nnas",
+      "dateTimeStart": "2026-05-29T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2389,7 +2578,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "tlcrpkh1k44tdb5fh28qbtk2t4"
+      "eventId": "tlcrpkh1k44tdb5fh28qbtk2t4",
+      "dateTimeStart": "2026-06-01T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2401,7 +2591,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "80m4ba63p7podipc3re597g7p8"
+      "eventId": "80m4ba63p7podipc3re597g7p8",
+      "dateTimeStart": "2026-06-03T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2413,7 +2604,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "9ngqt8uc5e7ka41dvilsiabtlg"
+      "eventId": "9ngqt8uc5e7ka41dvilsiabtlg",
+      "dateTimeStart": "2026-06-03T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2425,7 +2617,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "eussq7o1qfamp5kh237f9janj0"
+      "eventId": "eussq7o1qfamp5kh237f9janj0",
+      "dateTimeStart": "2026-06-05T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2437,7 +2630,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "ckpcr1aa6palohmn9gfbfupnb4"
+      "eventId": "ckpcr1aa6palohmn9gfbfupnb4",
+      "dateTimeStart": "2026-06-05T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2449,7 +2643,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "loihpeq2a74j5re2ubqoebtda0"
+      "eventId": "loihpeq2a74j5re2ubqoebtda0",
+      "dateTimeStart": "2026-06-12T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2461,7 +2656,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "eoh9b2af5boui11k35vfu4q4d0"
+      "eventId": "eoh9b2af5boui11k35vfu4q4d0",
+      "dateTimeStart": "2026-06-12T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2473,7 +2669,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "4nge56b0e6iec02m8pg0ps1bsk"
+      "eventId": "4nge56b0e6iec02m8pg0ps1bsk",
+      "dateTimeStart": "2026-06-17T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2485,7 +2682,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "meoshmsm5dm9r5d5tkm2nljokg"
+      "eventId": "meoshmsm5dm9r5d5tkm2nljokg",
+      "dateTimeStart": "2026-06-17T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2497,7 +2695,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "gfkt5lnsh0t1to78d3crn9nfvc"
+      "eventId": "gfkt5lnsh0t1to78d3crn9nfvc",
+      "dateTimeStart": "2026-06-19T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2509,7 +2708,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "p1j4ftrt7rjvfv3a248e24m2l4"
+      "eventId": "p1j4ftrt7rjvfv3a248e24m2l4",
+      "dateTimeStart": "2026-06-19T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2521,7 +2721,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "ckhtulrf8e796q1p3bhliucrf8"
+      "eventId": "ckhtulrf8e796q1p3bhliucrf8",
+      "dateTimeStart": "2026-07-08T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2533,7 +2734,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "1sac3a7ovhadi0jhfnk58qarkg"
+      "eventId": "1sac3a7ovhadi0jhfnk58qarkg",
+      "dateTimeStart": "2026-07-08T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2545,7 +2747,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "10ocvn77ob3m7lejdjjoqmcq9c"
+      "eventId": "10ocvn77ob3m7lejdjjoqmcq9c",
+      "dateTimeStart": "2026-07-10T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2557,7 +2760,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "ceokejjjktm1dcm93mic8kj7bk"
+      "eventId": "ceokejjjktm1dcm93mic8kj7bk",
+      "dateTimeStart": "2026-07-10T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2569,7 +2773,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "gtvihf2j44cpt7a9tgrc43hodc"
+      "eventId": "gtvihf2j44cpt7a9tgrc43hodc",
+      "dateTimeStart": "2026-07-13T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2581,7 +2786,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "m3ku8pmetmf04r0mop2hraaljk"
+      "eventId": "m3ku8pmetmf04r0mop2hraaljk",
+      "dateTimeStart": "2026-07-17T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2593,7 +2799,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "k2g5gjkt5g0m59vhdvf02vmqss"
+      "eventId": "k2g5gjkt5g0m59vhdvf02vmqss",
+      "dateTimeStart": "2026-07-17T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2605,7 +2812,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "sko78hh9i7qh8i5pkr99dhr1nk"
+      "eventId": "sko78hh9i7qh8i5pkr99dhr1nk",
+      "dateTimeStart": "2026-07-22T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2617,7 +2825,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "7ma0r5qh5t2q2anaq3mon4bp9g"
+      "eventId": "7ma0r5qh5t2q2anaq3mon4bp9g",
+      "dateTimeStart": "2026-07-22T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2629,7 +2838,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "e4n0ibqtmi8ao757jvp94fu0jk"
+      "eventId": "e4n0ibqtmi8ao757jvp94fu0jk",
+      "dateTimeStart": "2026-07-24T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2641,7 +2851,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "9kbspl26q2hr7rgb6flug6afig"
+      "eventId": "9kbspl26q2hr7rgb6flug6afig",
+      "dateTimeStart": "2026-07-24T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2653,7 +2864,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "qsm4ejtitidliaohdl5fn1jeb8"
+      "eventId": "qsm4ejtitidliaohdl5fn1jeb8",
+      "dateTimeStart": "2026-07-27T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2665,7 +2877,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "p1a1lb6dfmei8v8ahuf90r85rc"
+      "eventId": "p1a1lb6dfmei8v8ahuf90r85rc",
+      "dateTimeStart": "2026-07-29T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2677,7 +2890,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "iqtq7chq4huhsq4d0s4apvvd50"
+      "eventId": "iqtq7chq4huhsq4d0s4apvvd50",
+      "dateTimeStart": "2026-07-29T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2689,7 +2903,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "22jbhn513f8ps1qndph31h2rlk"
+      "eventId": "22jbhn513f8ps1qndph31h2rlk",
+      "dateTimeStart": "2026-07-31T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2701,7 +2916,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "odn41jg1etu422qm1j6spa7rmk"
+      "eventId": "odn41jg1etu422qm1j6spa7rmk",
+      "dateTimeStart": "2026-07-31T12:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2713,7 +2929,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "gp418i05fafh4mltvenjko9gl0"
+      "eventId": "gp418i05fafh4mltvenjko9gl0",
+      "dateTimeStart": "2026-08-03T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2725,7 +2942,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "cn94g64dc8e4h7p0m4bad4shr8"
+      "eventId": "cn94g64dc8e4h7p0m4bad4shr8",
+      "dateTimeStart": "2026-08-05T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2737,7 +2955,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "899u7mhfs7ug0gp5gpibpm27v8"
+      "eventId": "899u7mhfs7ug0gp5gpibpm27v8",
+      "dateTimeStart": "2026-08-05T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2749,7 +2968,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "b4qi9ifbqt12648gupstj41te4"
+      "eventId": "b4qi9ifbqt12648gupstj41te4",
+      "dateTimeStart": "2026-08-10T08:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2761,7 +2981,8 @@
       "hours": 0.92,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "oe2894iqfngaqvdrdupg9afhg4"
+      "eventId": "oe2894iqfngaqvdrdupg9afhg4",
+      "dateTimeStart": "2026-08-12T09:45:00-05:00"
     },
     {
       "group": "11B",
@@ -2773,7 +2994,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "7971q6dq3iu7f5rijvc2r8esso"
+      "eventId": "7971q6dq3iu7f5rijvc2r8esso",
+      "dateTimeStart": "2026-08-12T11:35:00-05:00"
     },
     {
       "group": "11B",
@@ -2785,7 +3007,8 @@
       "hours": 0.92,
       "summary": "Filosofía",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "ocae50jtsl09s8b86i4dj3msac"
+      "eventId": "ocae50jtsl09s8b86i4dj3msac",
+      "dateTimeStart": "2026-08-14T10:40:00-05:00"
     },
     {
       "group": "11B",
@@ -2797,7 +3020,8 @@
       "hours": 0.83,
       "summary": "C. Sociales",
       "calendarId": "r77195e2q7721jskpk1bup22n8@group.calendar.google.com",
-      "eventId": "c3e0fkgu2udk8j0p9h2cecfa1s"
+      "eventId": "c3e0fkgu2udk8j0p9h2cecfa1s",
+      "dateTimeStart": "2026-08-14T12:45:00-05:00"
     }
   ]
 }
