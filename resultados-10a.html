@@ -85,8 +85,7 @@
     .score-line { display:flex; justify-content:space-between; gap:10px; font-size:.95rem; margin-bottom:8px; }
     .bar { height: 12px; background:#edf2f7; border-radius:999px; overflow:hidden; }
     .bar > div { height:100%; border-radius:999px; background: linear-gradient(90deg, var(--yellow), var(--blue2)); }
-    .notice { margin-top: 18px; padding: 14px 16px; font-size:.92rem; line-height:1.5; color:#5a6675; background:#fffdf3; border-color:#f5e5a6; box-shadow:none; }
-    footer { margin-top: 24px; text-align:center; color: var(--muted); font-size:.85rem; line-height:1.5; }
+    footer { margin-top: 24px; text-align:center; color: var(--muted); font-size:.85rem; line-height:1.5; display:none; }
     @media (min-width: 640px) { .search-row { flex-direction: row; } .search-row input { flex:1; } }
   </style>
 </head>
@@ -110,8 +109,6 @@
       <div id="result-area"></div>
       <div id="empty" class="empty">No encontré ese código con puntaje cargado en EVA_10A. Revisa el número e inténtalo otra vez.</div>
     </section>
-
-    <div class="notice">Nota: esta versión publica una copia estática de EVA_10A para consulta web. Dejé por fuera correo y contraseña.</div>
 
     <footer>Página de consulta académica · EVA_10A · Período I</footer>
   </div>
