@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zorrito 10A · Carrera del período</title>
+  <style>
+    :root {
+      --bg1: #fff7ed;
+      --bg2: #ffedd5;
+      --ink: #431407;
+      --muted: #7c2d12;
+      --track: #fed7aa;
+      --track-line: #fb923c;
+      --done: #f97316;
+      --station: #fdba74;
+      --future: #fde68a;
+      --card: rgba(255,255,255,.75);
+      --shadow: 0 16px 40px rgba(120, 53, 15, .15);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, #fff 0, transparent 30%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+
+    .hero {
+      background: var(--card);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,.8);
+      box-shadow: var(--shadow);
+      border-radius: 28px;
+      padding: 24px;
+      margin-bottom: 22px;
+    }
+
+    .hero-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.9rem, 4vw, 3.2rem);
+      letter-spacing: -.04em;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+      max-width: 720px;
+    }
+
+    .fox-badge {
+      font-size: 4rem;
+      line-height: 1;
+      filter: drop-shadow(0 8px 10px rgba(0,0,0,.12));
+      animation: bob 2.2s ease-in-out infinite;
+    }
+
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .stat {
+      background: rgba(255,255,255,.75);
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 20px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .stat .k {
+      font-size: .88rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .stat .v {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .race-card, .panel {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .race-card { margin-bottom: 20px; }
+
+    .section-title {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+    }
+
+    .track-wrap {
+      position: relative;
+      margin-top: 18px;
+      padding: 46px 16px 26px;
+      overflow-x: auto;
+    }
+
+    .track {
+      position: relative;
+      min-width: 980px;
+      height: 210px;
+    }
+
+    .path {
+      position: absolute;
+      left: 32px;
+      right: 32px;
+      top: 104px;
+      height: 18px;
+      background: linear-gradient(90deg, var(--track), #ffedd5);
+      border-radius: 999px;
+      box-shadow: inset 0 0 0 3px rgba(251,146,60,.18);
+    }
+
+    .path-progress {
+      position: absolute;
+      left: 32px;
+      top: 104px;
+      height: 18px;
+      width: 38%;
+      background: linear-gradient(90deg, #fb923c, #f97316);
+      border-radius: 999px;
+    }
+
+    .station {
+      position: absolute;
+      top: 70px;
+      transform: translateX(-50%);
+      text-align: center;
+      width: 124px;
+    }
+
+    .station .dot {
+      width: 28px;
+      height: 28px;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      background: var(--station);
+      border: 4px solid white;
+      box-shadow: 0 6px 16px rgba(0,0,0,.12);
+    }
+
+    .station.done .dot { background: var(--done); }
+    .station.future .dot { background: var(--future); }
+
+    .station .label {
+      font-size: .86rem;
+      font-weight: 700;
+    }
+
+    .station .date {
+      font-size: .76rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .fox-runner {
+      position: absolute;
+      left: 38%;
+      top: 24px;
+      transform: translateX(-50%);
+      font-size: 4.2rem;
+      line-height: 1;
+      transition: left .6s ease;
+      filter: drop-shadow(0 14px 16px rgba(0,0,0,.16));
+    }
+
+    .fox-runner .bubble {
+      position: absolute;
+      top: -18px;
+      left: 58px;
+      background: white;
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: .82rem;
+      font-weight: 700;
+      white-space: nowrap;
+      box-shadow: 0 8px 18px rgba(0,0,0,.12);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 18px;
+    }
+
+    .next-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .next-item {
+      background: rgba(255,255,255,.65);
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 18px;
+      padding: 14px;
+    }
+
+    .next-item strong { display: block; margin-bottom: 6px; }
+    .tiny { color: var(--muted); font-size: .88rem; }
+
+    .meter {
+      margin-top: 14px;
+      background: rgba(255,255,255,.65);
+      border-radius: 999px;
+      height: 14px;
+      overflow: hidden;
+    }
+
+    .meter > div {
+      height: 100%;
+      width: 38%;
+      background: linear-gradient(90deg, #fb923c, #f97316);
+      border-radius: 999px;
+    }
+
+    .callout {
+      margin-top: 14px;
+      background: #fff;
+      border-left: 5px solid #f97316;
+      border-radius: 16px;
+      padding: 14px 16px;
+      color: var(--ink);
+    }
+
+    @media (max-width: 900px) {
+      .stats, .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="hero-top">
+        <div>
+          <h1>Zorrito de 10A 🦊</h1>
+          <p class="sub">
+            Demo conceptual de una web tipo carrera del período. El zorrito avanza por estaciones
+            del módulo según el progreso real del curso y deja ver qué sigue, qué hito viene y
+            qué tan cerca está la evaluación.
+          </p>
+        </div>
+        <div class="fox-badge">🦊</div>
+      </div>
+
+      <div class="stats">
+        <article class="stat">
+          <div class="k">Curso</div>
+          <div class="v">10A</div>
+        </article>
+        <article class="stat">
+          <div class="k">Materia</div>
+          <div class="v">Sociales</div>
+        </article>
+        <article class="stat">
+          <div class="k">Avance del módulo</div>
+          <div class="v">38%</div>
+        </article>
+        <article class="stat">
+          <div class="k">Próximo hito</div>
+          <div class="v">Lectura</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="race-card">
+      <h2 class="section-title">Carrera del módulo 1</h2>
+      <div class="tiny">Ejemplo: el zorrito ya pasó introducción y apropiación 1. Va camino a la lectura.</div>
+
+      <div class="track-wrap">
+        <div class="track">
+          <div class="path"></div>
+          <div class="path-progress"></div>
+
+          <div class="fox-runner">
+            🦊
+            <div class="bubble">Va para Lectura</div>
+          </div>
+
+          <div class="station done" style="left: 8%;">
+            <div class="dot"></div>
+            <div class="label">Inicio</div>
+            <div class="date">5 may</div>
+          </div>
+
+          <div class="station done" style="left: 20%;">
+            <div class="dot"></div>
+            <div class="label">Proyecto presentado</div>
+            <div class="date">7 may</div>
+          </div>
+
+          <div class="station done" style="left: 32%;">
+            <div class="dot"></div>
+            <div class="label">Apropiación 1</div>
+            <div class="date">7 may</div>
+          </div>
+
+          <div class="station future" style="left: 44%;">
+            <div class="dot"></div>
+            <div class="label">Lectura</div>
+            <div class="date">12 may</div>
+          </div>
+
+          <div class="station future" style="left: 58%;">
+            <div class="dot"></div>
+            <div class="label">Actividad 1</div>
+            <div class="date">14 may</div>
+          </div>
+
+          <div class="station future" style="left: 70%;">
+            <div class="dot"></div>
+            <div class="label">Evaluación</div>
+            <div class="date">19 may</div>
+          </div>
+
+          <div class="station future" style="left: 84%;">
+            <div class="dot"></div>
+            <div class="label">Proyecto final</div>
+            <div class="date">21 may</div>
+          </div>
+
+          <div class="station future" style="left: 95%;">
+            <div class="dot"></div>
+            <div class="label">Meta</div>
+            <div class="date">Cierre</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="panel">
+        <h2 class="section-title">Qué sigue</h2>
+        <div class="next-list">
+          <div class="next-item">
+            <strong>Próxima clase: Lectura</strong>
+            <div class="tiny">Trabajar comprensión del módulo y conectar la lectura con el proyecto.</div>
+          </div>
+          <div class="next-item">
+            <strong>Luego: Actividad en clase 1</strong>
+            <div class="tiny">Primer momento fuerte de aplicación. Conviene llegar con conceptos claros.</div>
+          </div>
+          <div class="next-item">
+            <strong>Después: Evaluación</strong>
+            <div class="tiny">La carrera muestra que la evaluación cae como estación visible del camino.</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 class="section-title">Pulso del zorrito</h2>
+        <div class="tiny">Así se vería una lectura rápida y más emocional del progreso.</div>
+        <div class="meter"><div></div></div>
+        <div class="callout">
+          <strong>Zorrito estable.</strong><br />
+          Si 10A mantiene el ritmo actual, llega bien a la estación de <b>Evaluación</b>.
+          Si se pierde otra clase, el zorrito se retrasaría una estación y habría que comprimir.
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
