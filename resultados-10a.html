@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta de resultados · 10A</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --ink: #1f2937;
+      --muted: #6b7280;
+      --line: #dbe3ee;
+      --blue: #0f4c81;
+      --blue-2: #1b6ca8;
+      --yellow: #f7c948;
+      --green: #1f8f5f;
+      --orange: #d9822b;
+      --red: #c0392b;
+      --shadow: 0 10px 30px rgba(15, 76, 129, 0.08);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: linear-gradient(180deg, #eaf2fb 0%, var(--bg) 220px);
+      color: var(--ink);
+    }
+
+    .flag {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      height: 10px;
+    }
+    .flag .y { background: #fcd116; }
+    .flag .b { background: #003893; }
+    .flag .r { background: #ce1126; }
+
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 20px 16px 48px;
+    }
+
+    .hero, .panel, .result-card, .notice {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 24px 20px;
+      margin-top: 16px;
+      background: linear-gradient(145deg, rgba(15,76,129,.96), rgba(27,108,168,.96));
+      color: white;
+      border: none;
+    }
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 1.6rem;
+      line-height: 1.15;
+    }
+    .hero p {
+      margin: 0;
+      color: rgba(255,255,255,.9);
+      line-height: 1.5;
+    }
+
+    .panel {
+      margin-top: 16px;
+      padding: 18px;
+    }
+
+    .search-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    label {
+      display: block;
+      font-size: .92rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 2px solid var(--line);
+      font-size: 1rem;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    input:focus {
+      border-color: var(--blue-2);
+      box-shadow: 0 0 0 4px rgba(27,108,168,.12);
+    }
+
+    button {
+      border: none;
+      border-radius: 14px;
+      padding: 14px 18px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--blue);
+      color: white;
+    }
+    button.secondary {
+      background: #eef4fb;
+      color: var(--blue);
+      border: 1px solid #c7d8ea;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.5;
+    }
+
+    .notice {
+      padding: 14px 16px;
+      margin-top: 16px;
+      font-size: .92rem;
+      line-height: 1.5;
+      color: #5a6675;
+      background: #fffdf3;
+      border-color: #f5e5a6;
+      box-shadow: none;
+    }
+
+    .status {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      font-size: .95rem;
+      display: none;
+    }
+    .status.show { display: block; }
+    .status.error { background: #fdecea; color: #a12622; border: 1px solid #f6c7c2; }
+    .status.info { background: #eef6ff; color: #174a7c; border: 1px solid #c6dcfb; }
+
+    .summary {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      margin-top: 16px;
+    }
+
+    .metric {
+      background: #f8fbff;
+      border: 1px solid #d9e7f5;
+      border-radius: 16px;
+      padding: 14px;
+    }
+    .metric .k {
+      font-size: .8rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 6px;
+    }
+    .metric .v {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--blue);
+    }
+
+    .student-box {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 16px;
+      background: linear-gradient(180deg, #f8fbff, #ffffff);
+      border: 1px solid #dce8f5;
+    }
+    .student-name {
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin: 0;
+    }
+    .student-meta {
+      color: var(--muted);
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+
+    .results-grid {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .result-card {
+      padding: 16px;
+    }
+
+    .result-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+      margin-bottom: 10px;
+    }
+
+    .result-title {
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .badge {
+      padding: 8px 10px;
+      border-radius: 999px;
+      font-size: .82rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .badge.excelente { background: #e8f7ef; color: var(--green); }
+    .badge.alto { background: #edf5ff; color: var(--blue); }
+    .badge.basico { background: #fff4e8; color: var(--orange); }
+    .badge.bajo { background: #fdecea; color: var(--red); }
+
+    .score-line {
+      display: flex;
+      justify-content: space-between;
+      font-size: .95rem;
+      margin-bottom: 8px;
+    }
+
+    .bar {
+      height: 12px;
+      background: #edf2f7;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .bar > div {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--yellow), var(--blue-2));
+    }
+
+    .empty {
+      display: none;
+      margin-top: 18px;
+      text-align: center;
+      color: var(--muted);
+      padding: 24px 18px;
+      border: 2px dashed #cddaea;
+      border-radius: 18px;
+      background: #f9fbfe;
+    }
+    .empty.show { display: block; }
+
+    footer {
+      margin-top: 26px;
+      color: var(--muted);
+      font-size: .85rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    @media (min-width: 640px) {
+      .wrap { padding-left: 20px; padding-right: 20px; }
+      .hero { padding: 28px; }
+      .input-row { flex-direction: row; }
+      .input-row input { flex: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="flag"><div class="y"></div><div class="b"></div><div class="r"></div></div>
+  <div class="wrap">
+    <section class="hero">
+      <h1>Consulta de resultados · EVA 10A</h1>
+      <p>Espacio para que acudientes y estudiantes consulten los resultados de las pruebas registradas para el curso 10A usando el código del estudiante.</p>
+    </section>
+
+    <section class="panel">
+      <div class="search-grid">
+        <div>
+          <label for="student-code">Código del estudiante</label>
+          <div class="input-row">
+            <input id="student-code" type="text" inputmode="numeric" autocomplete="off" placeholder="Ejemplo: 102" />
+            <button id="search-btn">Consultar resultados</button>
+            <button id="clear-btn" class="secondary" type="button">Limpiar</button>
+          </div>
+        </div>
+        <div class="hint">Ingresa únicamente el código institucional del estudiante. Esta consulta muestra los resultados disponibles en la base del curso 10A.</div>
+      </div>
+      <div id="status" class="status info"></div>
+      <div id="result-area"></div>
+      <div id="empty" class="empty">No encontré resultados para ese código en el curso 10A. Revisa el número e inténtalo de nuevo.</div>
+    </section>
+
+    <div class="notice">
+      Esta versión es de consulta informativa. Si más adelante quieres esconder mejor los datos o conectarlo en vivo a una hoja, toca montarle backend o un proxy seguro; GitHub Pages por sí solo es estático.
+    </div>
+
+    <footer>
+      Página de consulta académica · Curso 10A · Actualización desde la base exportada
+    </footer>
+  </div>
+
+  <script>
+    let DATA = null;
+
+    const $ = (id) => document.getElementById(id);
+
+    function normalize(input) {
+      return String(input || '').replace(/\D/g, '').trim();
+    }
+
+    function badgeClass(level) {
+      const value = String(level || '').toLowerCase();
+      if (value === 'excelente') return 'excelente';
+      if (value === 'alto') return 'alto';
+      if (value === 'básico' || value === 'basico') return 'basico';
+      return 'bajo';
+    }
+
+    function showStatus(text, type = 'info') {
+      const box = $('status');
+      box.textContent = text;
+      box.className = `status show ${type}`;
+    }
+
+    function clearStatus() {
+      $('status').className = 'status info';
+      $('status').textContent = '';
+    }
+
+    function renderStudent(student) {
+      const resultArea = $('result-area');
+      const avg = student.promedioPorcentaje ?? '—';
+      const level = student.desempenoGeneral || 'Sin dato';
+
+      const cards = student.resultados.map(item => {
+        const width = Math.max(0, Math.min(item.porcentaje ?? 0, 100));
+        return `
+          <article class="result-card">
+            <div class="result-head">
+              <div class="result-title">${item.tituloVisible || item.titulo}</div>
+              <div class="badge ${badgeClass(item.desempeno)}">${item.desempeno || 'Sin dato'}</div>
+            </div>
+            <div class="score-line">
+              <span>Puntaje: <strong>${item.puntaje}</strong>${item.maximo ? ` / ${item.maximo}` : ''}</span>
+              <span><strong>${item.porcentaje ?? '—'}%</strong></span>
+            </div>
+            <div class="bar"><div style="width:${width}%"></div></div>
+          </article>
+        `;
+      }).join('');
+
+      resultArea.innerHTML = `
+        <div class="student-box">
+          <h2 class="student-name">${student.nombreCompleto}</h2>
+          <div class="student-meta">Código: <strong>${student.codigo}</strong> · Curso: <strong>${student.curso}</strong> · Pruebas encontradas: <strong>${student.totalPruebas}</strong></div>
+          <div class="summary">
+            <div class="metric">
+              <div class="k">Promedio</div>
+              <div class="v">${avg}%</div>
+            </div>
+            <div class="metric">
+              <div class="k">Desempeño general</div>
+              <div class="v" style="font-size:1.15rem;">${level}</div>
+            </div>
+            <div class="metric">
+              <div class="k">Curso</div>
+              <div class="v">${student.curso}</div>
+            </div>
+          </div>
+          <div class="results-grid">${cards}</div>
+        </div>
+      `;
+    }
+
+    function lookup() {
+      clearStatus();
+      $('empty').classList.remove('show');
+      $('result-area').innerHTML = '';
+
+      const code = normalize($('student-code').value);
+      if (!code) {
+        showStatus('Escribe un código de estudiante para hacer la consulta.', 'error');
+        $('student-code').focus();
+        return;
+      }
+
+      if (!DATA) {
+        showStatus('Todavía estoy cargando la base de resultados. Intenta otra vez en un momento.', 'error');
+        return;
+      }
+
+      const student = DATA.estudiantes.find(item => String(item.codigo) === code);
+      if (!student) {
+        $('empty').classList.add('show');
+        return;
+      }
+
+      renderStudent(student);
+    }
+
+    async function loadData() {
+      try {
+        showStatus('Cargando base de resultados...', 'info');
+        const res = await fetch('./data/eva_10a.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('No se pudo abrir el archivo de datos');
+        DATA = await res.json();
+        showStatus(`Base lista: ${DATA.totalEstudiantes} estudiantes con resultados cargados.`, 'info');
+      } catch (error) {
+        showStatus('No pude cargar los resultados. Revisa que el archivo data/eva_10a.json esté publicado junto a esta página.', 'error');
+      }
+    }
+
+    $('search-btn').addEventListener('click', lookup);
+    $('clear-btn').addEventListener('click', () => {
+      $('student-code').value = '';
+      clearStatus();
+      $('result-area').innerHTML = '';
+      $('empty').classList.remove('show');
+      $('student-code').focus();
+    });
+    $('student-code').addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') lookup();
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
