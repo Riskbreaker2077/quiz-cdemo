@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Consulta EVA 10A</title>
+  <title>Consulta de resultados 10A</title>
   <style>
     :root {
       --bg: #f4f7fb;
@@ -92,8 +92,7 @@
   <div class="flag"><div class="y"></div><div class="b"></div><div class="r"></div></div>
   <div class="wrap">
     <section class="hero">
-      <h1>Consulta de resultados · EVA 10A</h1>
-      <p>Consulta puntual de la hoja <strong>EVA_10A</strong>. Ingresa el código del estudiante para ver el puntaje general y el desglose por área de la evaluación final.</p>
+      <h1>Consulta de resultados 10A</h1>
     </section>
 
     <section class="panel">
@@ -162,7 +161,7 @@
       $('result-area').innerHTML = `
         <div class="student-box">
           <h2 class="student-name">${student.nombreCompleto}</h2>
-          <div class="student-meta">Código: <strong>${student.codigo}</strong> · Período: <strong>${student.periodo || '—'}</strong> · Hoja: <strong>EVA_10A</strong></div>
+          <div class="student-meta">Código: <strong>${student.codigo}</strong> · Período: <strong>${student.periodo || '—'}</strong></div>
           <div class="summary">
             <div class="metric">
               <div class="k">Puntaje general</div>
@@ -206,13 +205,12 @@
 
     async function loadData() {
       try {
-        showStatus('Cargando EVA_10A...', 'info');
         const res = await fetch('./data/eva_10a.json', { cache: 'no-store' });
         if (!res.ok) throw new Error('No se pudo cargar data/eva_10a.json');
         DATA = await res.json();
-        showStatus(`Base lista: ${DATA.totalEstudiantes} estudiantes con puntajes en EVA_10A.`, 'info');
+        clearStatus();
       } catch (err) {
-        showStatus('No pude cargar EVA_10A. Revisa que el archivo de datos esté publicado con la página.', 'error');
+        showStatus('No pude cargar los resultados. Revisa la publicación de la página.', 'error');
       }
     }
 
