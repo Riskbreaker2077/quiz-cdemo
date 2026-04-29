@@ -1,1829 +1,1196 @@
 {
-  "curso": "10A",
-  "fuente": "/data/workspace/colegio_notas.xlsx",
-  "totalEstudiantes": 34,
-  "pruebasDisponibles": [
-    "F-I-M1-1",
-    "F-I-M1-2",
-    "S-I-M1",
-    "S-I-M2"
-  ],
+  "origen": "EVA_10A",
+  "sheetId": "17_Uu3Uq5YK1SBUpVXHNOqXQ4O6G-hQ11NEba8nHhsfk",
+  "range": "EVA_10A!A1:N200",
+  "totalEstudiantes": 27,
   "estudiantes": [
     {
-      "codigo": 100,
-      "nombreCompleto": "Samuel Agudelo Bedoya",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 8,
-          "maximo": 20,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 3,
-          "maximo": 10,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 35,
-      "desempenoGeneral": "Bajo",
-      "totalPruebas": 2
-    },
-    {
-      "codigo": 102,
-      "nombreCompleto": "Sharit Alejandra Almanza Cruz",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 20,
-          "maximo": 20,
-          "porcentaje": 100,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 19,
-          "maximo": 20,
-          "porcentaje": 95,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 5,
-          "maximo": 10,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 79,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 4
-    },
-    {
-      "codigo": 103,
+      "codigo": "103",
       "nombreCompleto": "Natalia Balseiro Perez",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 42.06,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 18,
-          "maximo": 20,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 38.89
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 22.22
         }
-      ],
-      "promedioPorcentaje": 65,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 2
+      ]
     },
     {
-      "codigo": 104,
+      "codigo": "104",
       "nombreCompleto": "Victoria Valentina Borges Palma",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 6,
-          "maximo": 20,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 3,
-          "maximo": 10,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 2,
-          "maximo": 10,
-          "porcentaje": 20,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 27,
+      "periodo": "I",
+      "puntajeGeneral": 35.71,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 3
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 16.67
+        }
+      ]
     },
     {
-      "codigo": 105,
+      "codigo": "105",
       "nombreCompleto": "Emily Cardona Velasquez",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 20,
-          "maximo": 20,
-          "porcentaje": 100,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 19,
-          "maximo": 20,
-          "porcentaje": 95,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 2,
-          "maximo": 10,
-          "porcentaje": 20,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 2,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1 · Intento 1"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 2,
-          "totalIntentosPrueba": 2,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1 · Intento 2"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 9,
-          "maximo": 10,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 75,
+      "periodo": "I",
+      "puntajeGeneral": 70.63,
       "desempenoGeneral": "Alto",
-      "totalPruebas": 5
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 66.67
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 88.89
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 94.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 83.33
+        }
+      ]
     },
     {
-      "codigo": 106,
+      "codigo": "106",
       "nombreCompleto": "Samael Alejandro Carrillo Pereira",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 38.1,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 12,
-          "maximo": 20,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 44.44
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 22.22
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 16.67
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 55.56
         }
-      ],
-      "promedioPorcentaje": 60,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 3
+      ]
     },
     {
-      "codigo": 107,
+      "codigo": "107",
       "nombreCompleto": "Lucia Camila Castañeda Mendoza",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 46.03,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 14,
-          "maximo": 20,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 38.89
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 13,
-          "maximo": 20,
-          "porcentaje": 65,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 66.67
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 50.0
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 33.33
         }
-      ],
-      "promedioPorcentaje": 61,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 108,
+      "codigo": "108",
       "nombreCompleto": "Andres Felipe Cepeda Villada",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 54.76,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 61.11
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 16,
-          "maximo": 20,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 38.89
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 77.78
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 5,
-          "maximo": 10,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 44.44
         }
-      ],
-      "promedioPorcentaje": 71,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 109,
+      "codigo": "109",
       "nombreCompleto": "Nicolas Cobo Guapacha",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 10,
-          "maximo": 20,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 5,
-          "maximo": 20,
-          "porcentaje": 25,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 2,
-          "maximo": 10,
-          "porcentaje": 20,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 39,
+      "periodo": "I",
+      "puntajeGeneral": 30.16,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 16.67
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 27.78
+        }
+      ]
     },
     {
-      "codigo": 110,
+      "codigo": "110",
       "nombreCompleto": "Victor Estiben Cortes Naranjo",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 15,
-          "maximo": 20,
-          "porcentaje": 75,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 8,
-          "maximo": 20,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 5,
-          "maximo": 10,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 5,
-          "maximo": 10,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 54,
+      "periodo": "I",
+      "puntajeGeneral": 35.71,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 16.67
+        }
+      ]
     },
     {
-      "codigo": 111,
-      "nombreCompleto": "Fabian Andres Echeverry Garzon",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 9,
-          "maximo": 20,
-          "porcentaje": 45,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 52,
-      "desempenoGeneral": "Bajo",
-      "totalPruebas": 2
-    },
-    {
-      "codigo": 112,
+      "codigo": "112",
       "nombreCompleto": "Daviannys Maoly Farfan Hernandez",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 9,
-          "maximo": 20,
-          "porcentaje": 45,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 7,
-          "maximo": 20,
-          "porcentaje": 35,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 9,
-          "maximo": 10,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 52,
+      "periodo": "I",
+      "puntajeGeneral": 35.71,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 50.0
+        }
+      ]
     },
     {
-      "codigo": 113,
+      "codigo": "113",
       "nombreCompleto": "Luisa Fernanda Galvis Gomez",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 59.52,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 13,
-          "maximo": 20,
-          "porcentaje": 65,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 44.44
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 20,
-          "maximo": 20,
-          "porcentaje": 100,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 55.56
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 8,
-          "maximo": 10,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 72.22
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 77.78
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 66.67
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 38.89
         }
-      ],
-      "promedioPorcentaje": 79,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 114,
+      "codigo": "114",
       "nombreCompleto": "Camila Garcia Parra",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 49.21,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 50.0
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 13,
-          "maximo": 20,
-          "porcentaje": 65,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 44.44
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 8,
-          "maximo": 10,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 66.67
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 66.67
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 27.78
         }
-      ],
-      "promedioPorcentaje": 77,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 3
+      ]
     },
     {
-      "codigo": 115,
+      "codigo": "115",
       "nombreCompleto": "Juanita Giraldo Taba",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 78.57,
+      "desempenoGeneral": "Alto",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 19,
-          "maximo": 20,
-          "porcentaje": 95,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 77.78
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 19,
-          "maximo": 20,
-          "porcentaje": 95,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 88.89
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 9,
-          "maximo": 10,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 88.89
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 9,
-          "maximo": 10,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 83.33
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 88.89
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 61.11
         }
-      ],
-      "promedioPorcentaje": 92,
-      "desempenoGeneral": "Excelente",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 116,
+      "codigo": "116",
       "nombreCompleto": "Matias Gonzalez Sotelo",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 63.49,
+      "desempenoGeneral": "Básico",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 19,
-          "maximo": 20,
-          "porcentaje": 95,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 61.11
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 20,
-          "maximo": 20,
-          "porcentaje": 100,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 83.33
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 8,
-          "maximo": 10,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 66.67
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 77.78
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 50.0
         }
-      ],
-      "promedioPorcentaje": 84,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 117,
+      "codigo": "117",
       "nombreCompleto": "Sara Guapacha Villegas",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 53.97,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 10,
-          "maximo": 20,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 50.0
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 18,
-          "maximo": 20,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 66.67
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 50.0
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 8,
-          "maximo": 10,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 44.44
         }
-      ],
-      "promedioPorcentaje": 72,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 118,
+      "codigo": "118",
       "nombreCompleto": "Jhon Sebastian Guevara Palechor",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 57.14,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 12,
-          "maximo": 20,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 50.0
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 10,
-          "maximo": 10,
-          "porcentaje": 100,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 83.33
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 8,
-          "maximo": 10,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 61.11
         }
-      ],
-      "promedioPorcentaje": 80,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 3
+      ]
     },
     {
-      "codigo": 120,
+      "codigo": "120",
       "nombreCompleto": "Oriana Kleibimar Melo Utrera",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 53.17,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 33.33
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 72.22
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 55.56
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 8,
-          "maximo": 10,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 55.56
         }
-      ],
-      "promedioPorcentaje": 78,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 121,
+      "codigo": "121",
       "nombreCompleto": "Michael Stiven Ortega Gallego",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 6,
-          "maximo": 20,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 7,
-          "maximo": 20,
-          "porcentaje": 35,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 3,
-          "maximo": 10,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 41,
+      "periodo": "I",
+      "puntajeGeneral": 36.51,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 27.78
+        }
+      ]
     },
     {
-      "codigo": 122,
+      "codigo": "122",
       "nombreCompleto": "Aisket Nohemi Ortega Sanchez",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 57.14,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 18,
-          "maximo": 20,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 55.56
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 18,
-          "maximo": 20,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 44.44
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 9,
-          "maximo": 10,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 77.78
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 66.67
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 55.56
         }
-      ],
-      "promedioPorcentaje": 82,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 123,
+      "codigo": "123",
       "nombreCompleto": "Miguel Angel Perez Galvis",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 16,
-          "maximo": 20,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 5,
-          "maximo": 10,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 69,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 4
-    },
-    {
-      "codigo": 124,
-      "nombreCompleto": "Julian Ricaute Quintero Henao",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 7,
-          "maximo": 20,
-          "porcentaje": 35,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 58,
+      "periodo": "I",
+      "puntajeGeneral": 40.48,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 33.33
+        }
+      ]
     },
     {
-      "codigo": 125,
+      "codigo": "125",
       "nombreCompleto": "Juan Manuel Rios Salazar",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 15,
-          "maximo": 20,
-          "porcentaje": 75,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 12,
-          "maximo": 20,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 3,
-          "maximo": 10,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 5,
-          "maximo": 10,
-          "porcentaje": 50,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 54,
+      "periodo": "I",
+      "puntajeGeneral": 32.54,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 38.89
+        }
+      ]
     },
     {
-      "codigo": 126,
+      "codigo": "126",
       "nombreCompleto": "Laura Jhasmin Salgado Motato",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 38.89,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 11,
-          "maximo": 20,
-          "porcentaje": 55,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 44.44
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 61.11
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 16.67
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 27.78
         }
-      ],
-      "promedioPorcentaje": 48,
-      "desempenoGeneral": "Bajo",
-      "totalPruebas": 2
+      ]
     },
     {
-      "codigo": 128,
+      "codigo": "128",
       "nombreCompleto": "Santiago Segura Tique",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 41.27,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 18,
-          "maximo": 20,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 33.33
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 44.44
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 61.11
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 38.89
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 27.78
         }
-      ],
-      "promedioPorcentaje": 74,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 129,
+      "codigo": "129",
       "nombreCompleto": "Alisson Sofia Valles Diaz",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 52.38,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 20,
-          "maximo": 20,
-          "porcentaje": 100,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 33.33
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 16,
-          "maximo": 20,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 77.78
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 61.11
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 6,
-          "maximo": 10,
-          "porcentaje": 60,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 72.22
         }
-      ],
-      "promedioPorcentaje": 78,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 130,
+      "codigo": "130",
       "nombreCompleto": "Gabriel Velez Thompson",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 19,
-          "maximo": 20,
-          "porcentaje": 95,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 72,
+      "periodo": "I",
+      "puntajeGeneral": 68.25,
       "desempenoGeneral": "Básico",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 66.67
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 77.78
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 55.56
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 77.78
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 50.0
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 94.44
+        }
+      ]
     },
     {
-      "codigo": 131,
+      "codigo": "131",
       "nombreCompleto": "Sara Valentina Villa Velandia",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 9,
-          "maximo": 20,
-          "porcentaje": 45,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 8,
-          "maximo": 20,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 3,
-          "maximo": 10,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 46,
+      "periodo": "I",
+      "puntajeGeneral": 32.54,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
+      "materias": [
+        {
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 38.89
+        }
+      ]
     },
     {
-      "codigo": 132,
+      "codigo": "132",
       "nombreCompleto": "Allison Xiomara Villada Piades",
-      "curso": "10A",
-      "resultados": [
+      "periodo": "I",
+      "puntajeGeneral": 34.92,
+      "desempenoGeneral": "Bajo",
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 20,
-          "maximo": 20,
-          "porcentaje": 100,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 27.78
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 8,
-          "maximo": 20,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 33.33
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 55.56
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 9,
-          "maximo": 10,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 22.22
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 44.44
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 33.33
         }
-      ],
-      "promedioPorcentaje": 68,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 4
+      ]
     },
     {
-      "codigo": 133,
+      "codigo": "133",
       "nombreCompleto": "Laura Sofia Viveros Vallejo",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 18,
-          "maximo": 20,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 19,
-          "maximo": 20,
-          "porcentaje": 95,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 2,
-          "maximo": 10,
-          "porcentaje": 20,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 9,
-          "maximo": 10,
-          "porcentaje": 90,
-          "desempeno": "Excelente",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 74,
-      "desempenoGeneral": "Básico",
-      "totalPruebas": 4
-    },
-    {
-      "codigo": 136,
-      "nombreCompleto": "Luciano Bergaño Pelaez",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 8,
-          "maximo": 20,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 5,
-          "maximo": 20,
-          "porcentaje": 25,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        },
-        {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 7,
-          "maximo": 10,
-          "porcentaje": 70,
-          "desempeno": "Básico",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
-        },
-        {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 3,
-          "maximo": 10,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
-        }
-      ],
-      "promedioPorcentaje": 41,
+      "periodo": "I",
+      "puntajeGeneral": 36.51,
       "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
-    },
-    {
-      "codigo": 212,
-      "nombreCompleto": "Esneider  Orozco Urrea",
-      "curso": "10A",
-      "resultados": [
+      "materias": [
         {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 5,
-          "maximo": 20,
-          "porcentaje": 25,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
+          "clave": "Matematicas",
+          "materia": "Matemáticas",
+          "puntaje": 44.44
         },
         {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 7,
-          "maximo": 20,
-          "porcentaje": 35,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
+          "clave": "Lenguaje",
+          "materia": "Lenguaje",
+          "puntaje": 44.44
         },
         {
-          "prueba": "F-I-M1-1",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 1",
-          "puntaje": 3,
-          "maximo": 10,
-          "porcentaje": 30,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 1"
+          "clave": "Quimica",
+          "materia": "Química",
+          "puntaje": 50.0
         },
         {
-          "prueba": "F-I-M1-2",
-          "titulo": "Filosofía · Periodo I · Módulo 1 · Prueba 2",
-          "puntaje": 4,
-          "maximo": 10,
-          "porcentaje": 40,
-          "desempeno": "Bajo",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "Filosofía · Periodo I · Módulo 1 · Prueba 2"
+          "clave": "Fisica",
+          "materia": "Física",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Sociales",
+          "materia": "Sociales",
+          "puntaje": 33.33
+        },
+        {
+          "clave": "Filosofia",
+          "materia": "Filosofía",
+          "puntaje": 27.78
+        },
+        {
+          "clave": "Ingles",
+          "materia": "Inglés",
+          "puntaje": 27.78
         }
-      ],
-      "promedioPorcentaje": 32,
-      "desempenoGeneral": "Bajo",
-      "totalPruebas": 4
-    },
-    {
-      "codigo": 213,
-      "nombreCompleto": "Leonardo Stevan Acero Bueno",
-      "curso": "10A",
-      "resultados": [
-        {
-          "prueba": "S-I-M1",
-          "titulo": "C. Sociales · Periodo I · Módulo 1",
-          "puntaje": 17,
-          "maximo": 20,
-          "porcentaje": 85,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 1"
-        },
-        {
-          "prueba": "S-I-M2",
-          "titulo": "C. Sociales · Periodo I · Módulo 2",
-          "puntaje": 16,
-          "maximo": 20,
-          "porcentaje": 80,
-          "desempeno": "Alto",
-          "resultado": null,
-          "intento": 1,
-          "totalIntentosPrueba": 1,
-          "tituloVisible": "C. Sociales · Periodo I · Módulo 2"
-        }
-      ],
-      "promedioPorcentaje": 82,
-      "desempenoGeneral": "Alto",
-      "totalPruebas": 2
+      ]
     }
   ]
 }
