@@ -1,582 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mecanismos de Participación Ciudadana en Colombia</title>
-  <style>
-    :root {
-      --colombia-yellow: #FFD200;
-      --colombia-blue: #003893;
-      --colombia-red: #CE1126;
-      --bg: #f4f6fb;
-      --card: #ffffff;
-      --text: #1a1a2e;
-      --text-light: #555;
-      --correct: #2e7d32;
-      --incorrect: #c62828;
-      --border: #e0e4f0;
-      --radius: 16px;
-    }
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Curso Aprendizaje Móvil — Ciudad Dorada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    header {
-      width: 100%;
-      background: linear-gradient(135deg, var(--colombia-blue) 0%, #001d5b 100%);
-      color: white;
-      padding: 1.2rem 1rem;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 1.2rem;
-      font-weight: 700;
-      letter-spacing: -0.3px;
-    }
-
-    header p {
-      font-size: 0.8rem;
-      opacity: 0.85;
-      margin-top: 0.2rem;
-    }
-
-    .flag-stripe {
-      display: flex;
-      height: 6px;
-    }
-    .flag-stripe div { flex: 1; }
-    .flag-stripe .y { background: var(--colombia-yellow); }
-    .flag-stripe .b { background: var(--colombia-blue); }
-    .flag-stripe .r { background: var(--colombia-red); }
-
-    main {
-      width: 100%;
-      max-width: 600px;
-      padding: 1rem;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .screen { display: none; flex-direction: column; gap: 1rem; }
-    .screen.active { display: flex; }
-
-    .card {
-      background: var(--card);
-      border-radius: var(--radius);
-      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-      padding: 1.4rem;
-      border: 1px solid var(--border);
-    }
-
-    .card h2 { font-size: 1.1rem; margin-bottom: 0.6rem; color: var(--colombia-blue); }
-    .card p { font-size: 0.9rem; color: var(--text-light); line-height: 1.5; }
-
-    input[type="text"] {
-      width: 100%;
-      padding: 0.85rem 1rem;
-      border: 2px solid var(--border);
-      border-radius: 12px;
-      font-size: 1rem;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-    input[type="text"]:focus { border-color: var(--colombia-blue); }
-
-    .phase-btn {
-      display: flex;
-      gap: 0.75rem;
-    }
-
-    .phase-btn button, .btn-primary {
-      flex: 1;
-      padding: 0.85rem;
-      border: none;
-      border-radius: 12px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: transform 0.1s, opacity 0.2s;
-    }
-    .phase-btn button:active, .btn-primary:active { transform: scale(0.97); }
-
-    .btn-practice {
-      background: var(--colombia-yellow);
-      color: var(--text);
-    }
-    .btn-eval {
-      background: var(--colombia-blue);
-      color: white;
-    }
-    .btn-primary {
-      background: var(--colombia-blue);
-      color: white;
-    }
-    .btn-secondary {
-      background: var(--colombia-yellow);
-      color: var(--text);
-      padding: 0.85rem;
-      border: none;
-      border-radius: 12px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      width: 100%;
-    }
-
-    .progress-bar {
-      background: var(--border);
-      border-radius: 8px;
-      height: 8px;
-      overflow: hidden;
-    }
-    .progress-bar .fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--colombia-blue), var(--colombia-yellow));
-      border-radius: 8px;
-      transition: width 0.4s ease;
-    }
-
-    .progress-text {
-      font-size: 0.8rem;
-      color: var(--text-light);
-      text-align: right;
-    }
-
-    .question-number {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--colombia-blue);
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    .question-text {
-      font-size: 1.05rem;
-      font-weight: 600;
-      line-height: 1.5;
-      margin: 0.5rem 0 1rem;
-    }
-
-    .options { display: flex; flex-direction: column; gap: 0.6rem; }
-
-    .option-btn {
-      padding: 0.85rem 1rem;
-      border: 2px solid var(--border);
-      border-radius: 12px;
-      background: white;
-      text-align: left;
-      font-size: 0.95rem;
-      cursor: pointer;
-      transition: border-color 0.2s, background 0.2s;
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-    }
-    .option-btn:hover { border-color: var(--colombia-blue); }
-    .option-btn .letter {
-      width: 28px; height: 28px;
-      border-radius: 50%;
-      background: var(--bg);
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 700;
-      font-size: 0.8rem;
-      flex-shrink: 0;
-    }
-    .option-btn.selected { border-color: var(--colombia-blue); background: #f0f4ff; }
-    .option-btn.correct { border-color: var(--correct); background: #e8f5e9; }
-    .option-btn.incorrect { border-color: var(--incorrect); background: #ffebee; }
-    .option-btn.disabled { cursor: default; pointer-events: none; }
-
-    .feedback-box {
-      padding: 1rem;
-      border-radius: 12px;
-      font-size: 0.9rem;
-      line-height: 1.5;
-    }
-    .feedback-box.correct-fb { background: #e8f5e9; border: 1.5px solid var(--correct); }
-    .feedback-box.incorrect-fb { background: #ffebee; border: 1.5px solid var(--incorrect); }
-    .feedback-box strong { display: block; margin-bottom: 0.3rem; }
-    .feedback-box .correct-answer { color: var(--correct); font-weight: 600; }
-
-    .btn-next {
-      padding: 0.85rem;
-      background: var(--colombia-blue);
-      color: white;
-      border: none;
-      border-radius: 12px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      width: 100%;
-    }
-    .btn-next:disabled { opacity: 0.4; cursor: default; }
-
-    .score-display {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    .score-display .big-score {
-      font-size: 4rem;
-      font-weight: 800;
-      color: var(--colombia-blue);
-      line-height: 1;
-    }
-    .score-display .score-label { font-size: 1rem; color: var(--text-light); margin-top: 0.3rem; }
-    .score-display .score-detail { font-size: 0.9rem; color: var(--text-light); margin-top: 1rem; }
-
-    .video-section { margin-top: 0.5rem; }
-    .video-section h3 { font-size: 0.95rem; color: var(--colombia-blue); margin-bottom: 0.6rem; }
-    .video-grid { display: flex; flex-direction: column; gap: 0.75rem; }
-    .video-grid iframe, .video-grid .video-placeholder {
-      width: 100%;
-      aspect-ratio: 16/9;
-      border-radius: 12px;
-      border: none;
-    }
-    .video-placeholder {
-      background: #e0e4f0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.85rem;
-      color: var(--text-light);
-    }
-
-    .info-box {
-      background: #fff8e1;
-      border: 1.5px solid var(--colombia-yellow);
-      border-radius: 12px;
-      padding: 0.85rem 1rem;
-      font-size: 0.85rem;
-      line-height: 1.5;
-    }
-
-    @media (min-width: 480px) {
-      header h1 { font-size: 1.5rem; }
-      main { padding: 1.5rem; }
-    }
-  </style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 </head>
 <body>
+<div id="root"></div>
 
-<div class="flag-stripe"><div class="y"></div><div class="b"></div><div class="r"></div></div>
-<header>
-  <h1>⚙️ Mecanismos de Participación Ciudadana</h1>
-  <p>Prof. Carolina Patiño · Colegio Ciudad Dorada · Grado 11°</p>
-</header>
+<!-- Library scripts -->
+<script type="text/babel" src="ios-frame.jsx"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="app-screens.jsx"></script>
+<script type="text/babel" src="app-modules.jsx"></script>
+<script type="text/babel" src="app-finale.jsx"></script>
 
-<main>
+<script type="text/babel" data-presets="env,react">
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "teacherName": "Carolina Patiño Cuellar",
+  "schoolName": "Ciudad Dorada",
+  "schoolLogo": "assets/escudo-ciudad-dorada.jpeg",
+  "primaryColor": "#a855f7",
+  "accentColor": "#39ff14"
+}/*EDITMODE-END*/;
 
-  <!-- WELCOME SCREEN -->
-  <div id="screen-welcome" class="screen active">
-    <div class="card">
-      <h2>¡Bienvenido!</h2>
-      <p>Esta actividad evalúa tus conocimientos sobre los <strong>Mecanismos de Participación Ciudadana en Colombia</strong> establecidos en la Ley 1757 de 2015.</p>
-    </div>
-    <div class="card">
-      <h2>Ingresa tu nombre</h2>
-      <input type="text" id="student-name" placeholder="Tu nombre completo" autocomplete="off">
-    </div>
-    <div class="card">
-      <h2>¿Cómo quieres practicar?</h2>
-      <div class="phase-btn">
-        <button class="btn-practice" onclick="startPhase('practice')">📚 Práctica</button>
-        <button class="btn-eval" onclick="startPhase('eval')">📝 Evaluación</button>
+function App() {
+  const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  const [block, setBlock] = React.useState(1);
+  const [state, setState] = React.useState({
+    groupName: "",
+    badges: [false, false, false], // [b6, b7, b8]
+    b6Seen: [false, false, false, false],
+    b7Done: false,
+    qrFound: Array(10).fill(false),
+  });
+
+  const fullState = { ...state, block };
+
+  const go = (n) => {
+    setBlock(n);
+    // scroll to top of screen body
+    requestAnimationFrame(() => {
+      const sb = document.querySelector(".screen-body");
+      if (sb) sb.scrollTop = 0;
+    });
+  };
+
+  let currentScreen;
+  switch (block) {
+    case 1: currentScreen = <Block1Title go={go} tweaks={tweaks} />; break;
+    case 2: currentScreen = <Block2Intro go={go} />; break;
+    case 3: currentScreen = <Block3Group go={go} state={state} setState={setState} />; break;
+    case 4: currentScreen = <Block4Explanation go={go} state={state} />; break;
+    case 5: currentScreen = <Block5Hub go={go} state={state} />; break;
+    case 6: currentScreen = <Block6Content go={go} state={state} setState={setState} />; break;
+    case 7: currentScreen = <Block7Training go={go} state={state} setState={setState} />; break;
+    case 8: currentScreen = <Block8Journey go={go} state={state} setState={setState} />; break;
+    case 9: currentScreen = <Block9Finale go={go} state={state} setState={setState} />; break;
+    default: currentScreen = <Block1Title go={go} tweaks={tweaks} />;
+  }
+
+  return (
+    <div className="stage" data-screen-label={`0${block} Bloque ${block}`}>
+      <div className="stage-title">
+        ▌ APRENDIZAJE MÓVIL · CIUDAD DORADA ▐
       </div>
-      <div class="info-box" style="margin-top:0.8rem;">
-        <strong>Práctica:</strong> Sin nota, puedes intentarlo de nuevo y recibes retroalimentación al instante.<br>
-        <strong>Evaluación:</strong> Queda registrada. Una sola oportunidad, retroalimentación al final.
-      </div>
+
+      <IOSDevice width={390} height={780} dark={true}>
+        <div className="screen">
+          <AppTopbar state={fullState} />
+          {currentScreen}
+        </div>
+      </IOSDevice>
+
+      <TweaksPanel title="Tweaks">
+        <TweakSection title="Identidad">
+          <TweakText label="Profesora" value={tweaks.teacherName} onChange={(v) => setTweak("teacherName", v)} />
+          <TweakText label="Colegio" value={tweaks.schoolName} onChange={(v) => setTweak("schoolName", v)} />
+          <TweakText label="Logo (URL)" value={tweaks.schoolLogo || ""} onChange={(v) => setTweak("schoolLogo", v)} />
+        </TweakSection>
+        <TweakSection title="Navegación">
+          <TweakSelect
+            label="Saltar al bloque"
+            value={String(block)}
+            onChange={(v) => go(Number(v))}
+            options={[
+              { value: "1", label: "01 · Título" },
+              { value: "2", label: "02 · Intro" },
+              { value: "3", label: "03 · Grupo" },
+              { value: "4", label: "04 · Explicación" },
+              { value: "5", label: "05 · Mapa (puente)" },
+              { value: "6", label: "06 · Contenido" },
+              { value: "7", label: "07 · Entrenamiento" },
+              { value: "8", label: "08 · Viaje" },
+              { value: "9", label: "09 · Final" },
+            ]}
+          />
+          <TweakButton label="Reset progreso" onClick={() => {
+            setState({
+              groupName: "",
+              badges: [false, false, false],
+              b6Seen: [false, false, false, false],
+              b7Done: false,
+              qrFound: Array(10).fill(false),
+            });
+            go(1);
+          }} />
+          <TweakButton label="Otorgar todas las insignias" onClick={() => {
+            setState(s => ({ ...s, badges: [true, true, true] }));
+          }} />
+        </TweakSection>
+      </TweaksPanel>
     </div>
-  </div>
-
-  <!-- QUIZ SCREEN -->
-  <div id="screen-quiz" class="screen">
-    <div class="card">
-      <div class="progress-bar"><div class="fill" id="progress-fill"></div></div>
-      <div class="progress-text" id="progress-text"></div>
-    </div>
-    <div class="card" id="question-card">
-      <div class="question-number" id="question-number"></div>
-      <div class="question-text" id="question-text"></div>
-      <div class="options" id="options-container"></div>
-      <div id="feedback-container"></div>
-    </div>
-    <button class="btn-next" id="btn-next" onclick="nextQuestion()" disabled>Siguiente</button>
-  </div>
-
-  <!-- RESULTS SCREEN -->
-  <div id="screen-results" class="screen">
-    <div class="card score-display">
-      <div class="big-score" id="big-score"></div>
-      <div class="score-label" id="score-label"></div>
-      <div class="score-detail" id="score-detail"></div>
-    </div>
-    <div class="card" id="results-videos" style="display:none;">
-      <h2>🎥 Videos de apoyo</h2>
-      <div class="video-grid" id="video-grid"></div>
-    </div>
-    <div class="card">
-      <button class="btn-secondary" onclick="restartQuiz()">🔄 Volver al inicio</button>
-    </div>
-  </div>
-
-</main>
-
-<script>
-const VIDEOS = [
-  { title: "¿Qué es el Plebiscito?", id: "9YwrB destYI" },
-  { title: "Consulta Popular y mecanismos de participación", id: "kDxGNP4UfhA" },
-  { title: "La Participación Ciudadana en Colombia", id: "R7iJyG4GvFI" },
-];
-
-const QUESTIONS = [
-  {
-    text: "¿Qué es el Plebiscito?",
-    options: [
-      "Una votación para elegir al Presidente de la República",
-      "Un mecanismo de participación mediante el cual los ciudadanos se pronuncian sobre asuntos de especial importancia nacional",
-      "Una consulta a los Concejos municipales sobre presupuestos",
-      "Un tipo de referendo sobre leyes municipales"
-    ],
-    correct: 1,
-    feedback: "El Plebiscito es un mecanismo por el cual los ciudadanos se pronuncian sobre asuntos de especial importancia nacional, departamental o municipal. Fue utilizado en 2016 para la paz con las FARC."
-  },
-  {
-    text: "¿Qué es la Consulta Popular?",
-    options: [
-      "Una encuesta electoral para conocer la opinión pública sobre temas diversos",
-      "Un mecanismo mediante el cual los ciudadanos de un municipio o distrito deciden sobre asuntos de competencia local que afectan su bienestar",
-      "Una reunión obligatoria de los habitantes con el alcalde cada año",
-      "Un referendo sobre proyectos de ley del Congreso"
-    ],
-    correct: 1,
-    feedback: "La Consulta Popular es un mecanismo mediante el cual los ciudadanos de un municipio o distrito deciden sobre asuntos de competencia local que afectan su bienestar. Es convocada por el alcalde o por el 30% de los ciudadanos."
-  },
-  {
-    text: "¿Qué es el Cabildo Abierto?",
-    options: [
-      "Una reunión secretarial para discutir presupuestos públicos",
-      "Una reunión pública de los ciudadanos de un municipio para tomar decisiones sobre asuntos de competencia del Consejo Municipal",
-      "Un tipo de referendo revocatorio solo para Alcaldes",
-      "Una consulta escrita que realizan los partidos políticos a sus afiliados"
-    ],
-    correct: 1,
-    feedback: "El Cabildo Abierto es una reunión pública de los ciudadanos de un municipio o distrito para tomar decisiones sobre asuntos de competencia del Consejo Municipal. Pueden convocarlo el alcalde, el Consejo o el 10% de los ciudadanos."
-  },
-  {
-    text: "¿Qué es la Revocatoria del Mandato?",
-    options: [
-      "La destitución de un servidor público por mala conducta",
-      "Un mecanismo mediante el cual los ciudadanos decide si continúan o no en el cargo ciertos servidores públicos de elección popular",
-      "La anulación de una norma por parte de la Corte Constitucional",
-      "Un recurso de los partidos políticos para retirar candidatos"
-    ],
-    correct: 1,
-    feedback: "La Revocatoria del Mandato es un mecanismo mediante el cual los ciudadanos deciden si un servidor público de elección popular (alcalde, gobernador, Presidente) continúa o no en el cargo. Requière el 40% del electorado del cargo."
-  },
-  {
-    text: "¿Qué es el Voto Popular?",
-    options: [
-      "El derecho de los ciudadanos a votar desde el exterior",
-      "La elección de servidores públicos por votación de los ciudadanos en elecciones普遍的",
-      "Un tipo de referendo sobre leyes nacionales",
-      "La participación ciudadana en consultas interpartidistas"
-    ],
-    correct: 1,
-    feedback: "El Voto Popular es la expresión de la voluntad ciudadana ejercida mediante el sufragio para elegir o revocar a los servidores públicos de elección popular, como Alcaldes, Gobernadores, Presidente y Congreso."
-  },
-  {
-    text: "¿Qué es la Iniciativa Popular Legislativa?",
-    options: [
-      "La facultad del Presidente de presentar proyectos de ley al Congreso",
-      "Un derecho ciudadano para presentar proyectos de ley ante el Congreso de la República",
-      "La iniciativa que tienen los partidos para elegir directivos",
-      "Una forma de participación只能在社区内部使用"
-    ],
-    correct: 1,
-    feedback: "La Iniciativa Popular Legislativa permite que los ciudadanos presenten proyectos de ley ante el Congreso de la República, siempre que sean apoyados por al menos el 5% del censo electoral nacional (o 30% del censo electoral territorial para ordenanzas y acuerdos)."
-  },
-  {
-    text: "¿Qué es el Referendo?",
-    options: [
-      "Una consulta no vinculante realizada por el gobierno a la ciudadanía",
-      "Un mecanismo de participación ciudadana que permite derogar, modificar o adicionar normas jurídicas mediante votación popular",
-      "Un tipo de elección popular para cargos de libre remoción",
-      "Una consulta popular de ámbitounicipal"
-    ],
-    correct: 1,
-    feedback: "El Referendo es un mecanismo de participación que permite derogar, modificar o adicionar normas jurídicas vigentes mediante votación popular. Puede ser derogatorio, constitutivo, consultivo o de arrastre, según la Ley 134 de 1994."
-  },
-  {
-    text: "¿En qué consiste el derecho a la Iniciativa Popular Legislativa y normativa?",
-    options: [
-      "Solo los partidos políticos tienen este derecho ante el Congreso",
-      "Los ciudadanos pueden proponer proyectos de ley, ordenanzas, acuerdos y resoluciones ante las autoridades respectivas",
-      "Es un mecanismo que solo funciona a nivel municipal",
-      "Es obligatoria para el Congreso y debe debatirse inmediatamente"
-    ],
-    correct: 1,
-    feedback: "La Iniciativa Popular permite que cualquier ciudadano o grupo presente proyectos de ley ante el Congreso, ordenanzas ante las Asambleas, acuerdos ante los Concejos y resoluciones ante las Juntas. Es un derecho constitucional (Art. 40 CN)."
-  }
-];
-
-const LETTERS = ['A', 'B', 'C', 'D'];
-
-let state = {
-  phase: null,
-  name: '',
-  currentQ: 0,
-  answers: [],
-  score: 0,
-  answered: false,
-};
-
-function $(id) { return document.getElementById(id); }
-
-function showScreen(id) {
-  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-  $(id).classList.add('active');
+  );
 }
 
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function startPhase(phase) {
-  const nameInput = $('student-name');
-  const name = nameInput.value.trim();
-  if (!name) { nameInput.focus(); nameInput.style.borderColor='var(--colombia-red)'; setTimeout(()=>nameInput.style.borderColor='',800); return; }
-  state = { phase, name, currentQ: 0, answers: [], score: 0, answered: false };
-  showScreen('screen-quiz');
-  renderQuestion();
-}
-
-function renderQuestion() {
-  const q = QUESTIONS[state.currentQ];
-  const total = QUESTIONS.length;
-  const pct = ((state.currentQ) / total * 100);
-  $('progress-fill').style.width = pct + '%';
-  $('progress-text').textContent = `Pregunta ${state.currentQ + 1} de ${total}`;
-
-  $('question-number').textContent = `Pregunta ${state.currentQ + 1}`;
-  $('question-text').textContent = q.text;
-
-  const container = $('options-container');
-  container.innerHTML = '';
-
-  // shuffle options but track correct index
-  const optsWithIdx = q.options.map((opt, i) => ({ opt, idx: i }));
-  const shuffled = shuffle(optsWithIdx);
-  // store shuffled correct original index for feedback
-  const correctOriginalIdx = q.correct;
-
-  shuffled.forEach(({ opt, idx }, si) => {
-    const btn = document.createElement('button');
-    btn.className = 'option-btn';
-    btn.dataset.originalIdx = idx;
-    btn.innerHTML = `<span class="letter">${LETTERS[si]}</span><span>${opt}</span>`;
-    btn.onclick = () => selectOption(btn, idx, correctOriginalIdx);
-    container.appendChild(btn);
-  });
-
-  $('feedback-container').innerHTML = '';
-  $('btn-next').disabled = true;
-  $('btn-next').textContent = state.currentQ < total - 1 ? 'Siguiente' : 'Ver resultados';
-  state.answered = false;
-}
-
-function selectOption(btn, selectedIdx, correctIdx) {
-  if (state.answered) return;
-  state.answered = true;
-
-  const btns = document.querySelectorAll('.option-btn');
-  btns.forEach(b => {
-    b.classList.add('disabled');
-    const oi = parseInt(b.dataset.originalIdx);
-    if (oi === correctIdx) b.classList.add('correct');
-    if (b === btn && oi !== correctIdx) b.classList.add('incorrect');
-  });
-
-  const isCorrect = selectedIdx === correctIdx;
-  if (isCorrect) state.score++;
-  state.answers.push({ questionIdx: state.currentQ, selectedIdx, correctIdx, isCorrect });
-
-  const q = QUESTIONS[state.currentQ];
-  const fb = document.createElement('div');
-  fb.className = `feedback-box ${isCorrect ? 'correct-fb' : 'incorrect-fb'}`;
-  fb.innerHTML = `<strong>${isCorrect ? '✅ ¡Correcto!' : '❌ Incorrecto'}</strong>
-    ${q.feedback}
-    ${!isCorrect ? `<br><span class="correct-answer">Respuesta correcta: ${LETTERS[q.options.findIndex((_,i)=>i===correctIdx)]} — ${q.options[correctIdx]}</span>` : ''}`;
-  $('feedback-container').appendChild(fb);
-  $('btn-next').disabled = false;
-}
-
-function nextQuestion() {
-  state.currentQ++;
-  if (state.currentQ < QUESTIONS.length) {
-    renderQuestion();
-  } else {
-    showResults();
-  }
-}
-
-function showResults() {
-  const total = QUESTIONS.length;
-  const score = state.score;
-  const pct = Math.round((score / total) * 100);
-  const phase = state.phase;
-  const name = state.name;
-
-  $('big-score').textContent = `${score}/${total}`;
-  $('score-label').textContent = pct >= 70 ? '🎉 ¡Excelente!' : pct >= 50 ? '👍 ¡Buen trabajo!' : '📖 ¡Sigue estudiando!';
-  $('score-detail').textContent =
-    phase === 'eval'
-      ? `${name}, tu resultado en la Evaluación ha quedado registrado.`
-      : `${name}, puedes repetir la práctica cuántas veces quieras.`;
-
-  // Build video grid
-  const grid = $('video-grid');
-  grid.innerHTML = '';
-  VIDEOS.forEach(v => {
-    const div = document.createElement('div');
-    div.innerHTML = `<div class="video-placeholder"><iframe src="https://www.youtube.com/embed/${v.id}" title="${v.title}" allowfullscreen loading="lazy"></iframe></div>`;
-    grid.appendChild(div.firstElementChild);
-  });
-  $('results-videos').style.display = 'block';
-
-  showScreen('screen-results');
-}
-
-function restartQuiz() {
-  $('student-name').value = state.name;
-  showScreen('screen-welcome');
-}
-
-// Init
-$('student-name').addEventListener('keypress', e => {
-  if (e.key === 'Enter') {
-    const phase = $('btn-practice').getAttribute('data-last') || 'practice';
-  }
-});
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
 </script>
 </body>
 </html>
